@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="62px" height="62px" viewBox="0 0 62 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 14</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="31" cy="31" r="31"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-5" transform="translate(-509.000000, -2612.000000)">
+            <g id="Group-14" transform="translate(509.000000, 2612.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <circle stroke="#000000" stroke-width="3" cx="31" cy="31" r="29.5"></circle>
+                <g mask="url(#mask-2)" stroke="#000000" stroke-width="3.3">
+                    <g transform="translate(-26.571429, 11.071429)">
+                        <polyline id="Path-12" points="26.5958844 26.5111187 0.0560193413 0.126806639 26.4630406 0.126806639 63.4215187 36.6345716 26.5958844 73.0111127 26.5958844 0.126806639"></polyline>
+                        <polyline id="Path-13" points="50.4159517 23.5480331 63.3333182 10.7881954 73.0095869 20.3464607 64.0808923 20.3464607 64.0808923 36.5527143"></polyline>
+                        <path d="M64.0947744,17.0987942 L64.0947744,12.6249572" id="Line" stroke-linecap="square"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
