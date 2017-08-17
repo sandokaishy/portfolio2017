@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Graphic Design</title>
 	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="css/modal.css">
 	<link rel="stylesheet" type="text/css" href="css/verb.css">
 	<link rel="stylesheet" href="css/graphic_d.css">
 	<link rel="stylesheet" href="css/common.css">
@@ -12,20 +13,18 @@
 <body>
 	<div class="container-fluid">
 		<div class="row justify-content-center">
-			<div class="col-lg-8">
-				<div class="top">
-					<a href="index.html"><img src="img/back_arrow.png" alt="back"></a>
-					<h1 class="page_title">graphic design</h1>
-				</div>
+			<div class="top">
+				<a href="index.html"><img src="img/back_arrow.png" alt="back"></a>
+				<h1 class="page_title">graphic design</h1>
 			</div>
 		</div>
 		<div class="row justify-content-center collection">
 			<div class="col-lg-8">
 				<div class="row justify-content-start">
 					<div class="col-lg-8 col-8">
-						<div id="gang_invite" class="project_thumbnail">
+						<div id="gang_invite" class="project_thumbnail"data-toggle="modal" data-target="#wedding_invite">
 							<div class="descriptions">
-								<h3>wedding<br/ >invitation</h3>
+								<h3>Wedding<br/ >invitation</h3>
 								<p>invitation composed with 3 tickets.</p>
 							</div>
 						</div>
@@ -39,9 +38,68 @@
 						</div>
 					</div>														
 				</div>
-			</div>
-									
+			</div>				
 		</div>
-	</div>	
+	</div>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>	
+	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
+
+
+<div class="modal fade" id="wedding_invite" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="exampleModalLongTitle">Wedding invitation</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      	<div class="row justify-content-center">
+	      	<div class="col-12 cover_img">
+	      		<img src="img/gang_invite/0.png">	
+	      	</div>
+      	</div>
+				
+				<div class="row justify-content-center">
+					<div class="col-5">
+						<div class="cover_img">
+							<img src="img/gang_invite/2.png" alt="">
+						</div>		
+					</div>
+	      	<div class="col-7">
+	      		<div class="wording">
+							<p>喜帖分成三個部分：交通資訊、婚宴時程、囍餅券。
+							好友結婚組成一個家庭，比較不同的是家庭成員還有一位—黃金獵犬小捌，因此將小捌作為設計的重點之一。</p>
+							<p>三張喜帖分別為女方對小捌、男方對小捌，男女方看著小捌，由小捌串連起一個完整的家庭。</p>
+							<p>雖然在製作之前已經有過凸板印刷的印製經驗，但四色印刷的經驗不足（照片部分），照片部分的印刷因紙張材質吃足苦頭。
+							為了保有喜帖拿在手上的紙張纖維觸感，在塗布多寡與顏色鮮豔之間取捨，最終選擇微塗布的紙張。
+							最終的成品好友很喜歡，好險。</p>		      			
+	      		</div>
+	      	</div>
+	      	<div class="col-7">
+	      		<img class="project_img" src="img/gang_invite/ticket1.png" alt="">
+	      	</div>
+	      	<div class="col-5">
+	      		<img class="project_img" src="img/gang_invite/ticket2.png" alt="">
+	      	</div>
+					<div class="col-6">
+						<img class="project_img" src="img/gang_invite/7.png" alt="">		
+					</div>
+					<div class="col-6">
+						<img class="project_img" src="img/gang_invite/4.png" alt="">		
+					</div>
+					<div class="col-12">
+						<div class="cover_img">
+							<img src="img/gang_invite/8.png" alt="">
+						</div>
+					</div>
+				</div>
+      </div>
+    </div>
+  </div>	
+</div>

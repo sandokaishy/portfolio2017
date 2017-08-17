@@ -6,13 +6,8 @@
 }
 
 #lp_cover {
-	background-image: url(../img/lp_cover/LP-01.png);
-	background-position: 25% 10%;
+	background-image: url(../img/lp_cover/lp-01.png);
+	/*background-position: 25% 10%;*/
 	-webkit-background-size: cover;
 	background-size: cover;	
-}
-
-.top {
-	position: fixed;
-	background-color: #eaeaea;
 }

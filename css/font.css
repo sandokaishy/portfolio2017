@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700');
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
 
 html {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat','Noto Sans TC', sans-serif;
 	background-color: #eaeaea;
 }
 
 a,p,span,h1,h2,h3,h4,h5 {
-	color: black;
+	color: #222;
 }
 
 a {
-	text-decoration: none;
+	text-decoration: underline;
 	font-weight: 400;
 }
 
@@ -24,7 +25,7 @@ ul, li {
 
 p {
 	font-size: 1rem;
-	font-weight: 300;
+	font-weight: light;
 	line-height: 1.75;
 }
 
