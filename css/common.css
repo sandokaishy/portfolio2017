@@ -3,6 +3,23 @@
 	margin-left: 32px;
 }
 
+.back_arrow:hover img{
+	transform: translateX(-8px);
+}
+
+.back_arrow img{
+	transition-delay: 1s;
+	-webkit-transition: all .25s ease-out;
+	   -moz-transition: all .25s ease-out;
+	    -ms-transition: all .25s ease-out;
+	     -o-transition: all .25s ease-out;
+	        transition: all .25s ease-out;
+}
+
+.back_arrow {
+	padding: 8px;
+}
+
 .top, .left {
 	padding-top: 40px;
 }

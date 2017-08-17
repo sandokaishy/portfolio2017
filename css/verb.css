@@ -20,6 +20,8 @@
 	height: 50%;
 	min-height: 280px;
 	z-index: 5;
+	-webkit-background-size: cover;
+	background-size: cover;	
 	-webkit-transition: all .3s ease-out;
 	   -moz-transition: all .3s ease-out;
 	    -ms-transition: all .3s ease-out;
@@ -28,7 +30,7 @@
 }
 
 .project_thumbnail:hover .descriptions{
-	transform: translateY(0);
+	transform: translateY(56px);
 	opacity: 1;
 }
 
@@ -41,13 +43,12 @@
 	width: 50%;
 	height: 100%;
 	position: absolute;
+	top: 0;
 	z-index: -5;
-	top: 60px;
 	right: -45%;
 	opacity: 0;
-	text-shadow: 0px 0px 50px #fff;
+	text-shadow: 0px 0px 80px #fff;
 
-	transform: translateY(50px);
 	-webkit-transition: all .3s ease-out;
 	   -moz-transition: all .3s ease-out;
 	    -ms-transition: all .3s ease-out;
@@ -72,7 +73,8 @@
 	margin-bottom: 56px;
 }
 
-.wording {
+.wording p{
+	font-weight: 400;
 	padding-left: 24px;
 }
 
