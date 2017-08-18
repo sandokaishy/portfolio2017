@@ -1,10 +1,54 @@
-.dailyui_10 {
-	background-image: url(../img/dailyui10/dailyui10_cover.png);
+
+.daily_animate {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-image: url(../img/dailyui/dailyui10_cover.png);
+	background-size: cover;
+	animation: dailyui 5s infinite;
+
+}
+
+.dailyui {
+	background-image: url(../img/dailyui/dailyui20_cover.png);
 	background-position: 25% 10%;
+	
+}
+
+#dailyui .project_img {
+	box-shadow: 0 20px 50px -10px rgba(0,0,0, .2);
 }
 
 
-.dailyui_20 {
-	background-image: url(../img/dailyui20/dailyui20_cover.png);
-	background-position: 25% 10%;
+
+.sudo.project_thumbnail {
+	background-color: #101740;
+}
+
+
+
+
+@-webkit-keyframes dailyui {
+  0%   { opacity: 0; }
+  25%  { opacity: 1; }
+  50%  { opacity: 1; }
+  100% { opacity: 0; }
+}
+@-moz-keyframes dailyui {
+  0%   { opacity: 0; }
+  25%  { opacity: 1; }
+  50%  { opacity: 1; }
+  100% { opacity: 0; }
+}
+@-o-keyframes dailyui {
+  0%   { opacity: 0; }
+  25%  { opacity: 1; }
+  50%  { opacity: 1; }
+  100% { opacity: 0; }
+}
+@keyframes dailyui {
+  0%   { opacity: 0; }
+  25%  { opacity: 1; }
+  50%  { opacity: 1; }
+  100% { opacity: 0; }
 }
