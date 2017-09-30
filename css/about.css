@@ -1,56 +1,36 @@
-
-
-.about_nav li{
-	font-size: 18px;
-	font-weight: 400;
-	list-style: none;
-	margin-bottom: 16px;	
+#intro {
+	width: 75%;
 }
 
-.about_nav {
-	margin-top: 48px;
-	padding: 0;	
+#intro img {
+	height: 180px;	
+	margin-bottom: 32px;
 }
 
-.position_title {
-	margin-top: 10vh;
-	margin-bottom: 0;
-}
-.name {
-	font-size: 24px;
-	font-weight: 400;
-	margin-top: 8px;
-}
-
-.left {
-	position: fixed;
-}
-
-
-section {
-	margin-top: 120px;
+#about section {
+	padding-top: 32px;
+	padding-left: 10%;
 }
 
 
 
-section h2 {
+#about section h2 {
 	margin-top: 0;
 	margin-bottom: 0;
 }
 
-section ul li{
+#about section ul li{
 	list-style: none;
 	font-size: 16px;
 	font-weight: 300;
-
-	margin-bottom: 16px;
+	margin-bottom: 8px;
 }
 
-section ul {
+#about section ul {
 	padding: 0;
 }
 
-.work_item ul li::before {
+#about .work_item ul li::before {
 	content:"- ";
 }
 
@@ -64,12 +44,12 @@ section ul {
 }
 
 
-section .postion_date p{
+#about section .postion_date p{
 	display: inline-block;
 	margin-right: 12px;
 	margin-top: 16px;
 }
 
-.work_item {
+#about .work_item {
 	margin-bottom: 96px;
 }

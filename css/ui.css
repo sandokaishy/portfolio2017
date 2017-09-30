@@ -32,19 +32,6 @@
 
 }
 
-.my83 {
-	background-image: url(../img/my83/my83_cover.png);
-	background-position: 50% 50%;	
-}
-
-#my83_modal h5 {
-	margin-top: 32px;
-	margin-bottom: 0px;
-}
-
-#my83_modal p {
-	margin-bottom: 44px;
-}
 
 #dailyui_modal .project_img {
 	box-shadow: 0 20px 40px -10px rgba(0,0,0, .2);

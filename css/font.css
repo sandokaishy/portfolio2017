@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
 
 html {
-	font-family: 'Montserrat','Noto Sans TC', sans-serif;
+	font-family: 'Roboto','Noto Sans TC', sans-serif;
 	background-color: #eaeaea;
 }
 
