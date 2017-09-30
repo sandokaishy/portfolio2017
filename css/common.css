@@ -26,9 +26,10 @@
 }
 
 .right {
-	border-left: 3px solid #3F3F3F;
+	/*border-left: 3px solid rgba(0,0,0,0.7);*/
 	padding-top: 64px;
 	min-height: 100vh;
+	/*box-shadow: -10px 0px 20px rgba(0,0,0,0.1);	*/
 }
 
 .name {
