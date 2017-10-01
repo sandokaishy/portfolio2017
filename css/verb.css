@@ -91,7 +91,6 @@
 
 .wording p{
 	font-weight: 400;
-	padding-left: 24px;
 }
 
 .project_item {
@@ -138,7 +137,7 @@
 }
 
 .project_page h1 {
-	text-align: center;
+	text-align: left;
 	margin-bottom: 60px;
 }
 
@@ -152,7 +151,7 @@
 }
 
 .wording {
-	margin-top: 12px;
+	margin-top: 42px;
 	margin-bottom: 24px;
 }
 
@@ -168,4 +167,11 @@
 
 .project_details li {
 	margin-bottom: 12px;
+}
+
+.project_details li span {
+	display: inline-block;
+	font-weight: bold;
+	min-width: 150px;
+	margin-right: 8px;
 }
