@@ -15,6 +15,10 @@ section {
 	margin-bottom: 80px;
 }
 
+section:last-child {
+	margin-bottom: 40px;
+}
+
 .section_title {
 	font-family: 'Roboto Slab';
 	font-weight: 700;
@@ -51,9 +55,10 @@ section {
 	font-size: 32px;
 	font-family: 'Roboto Slab';
 	font-weight: 400;
+	margin-top: 8px;
 }
 .right {
-	width: 30vw;
+	width: 40vw;
 	flex-shrink:0;
 	margin-left: 10%;
 }
@@ -65,7 +70,7 @@ section {
 }
 .year span{
 	display: block;
-	font-size: 12px;
+	font-size: 14px;
 	color: #4A4A4A;
 }
 .from {
@@ -93,13 +98,14 @@ section {
 	height: 100%;
 	background-color: #9B9B9B;
 	position: absolute;
-	left: 24px;
+	left: 20px;
 	z-index: -2;
 
 }
 
 .work_item {
 	display: flex;
+	margin-bottom: 64px;
 }
 
 .position_title {
@@ -110,7 +116,7 @@ section {
 
 .work_item li {
 	list-style-type: none;
-	margin-bottom: 8px;
+	margin-top: 8px;
 }
 
 .work_item li:before {
@@ -123,7 +129,11 @@ section {
 	justify-content: space-between;
 }
 
-.ability ul li span{
+.ability ul li span {
+	font-size: 14px;
+	font-weight: 400;
+	color: #4a4a4a;
+	line-height: 1.4;
 	width: 100px;
 	flex-grow: 0;
 	flex-shrink: 0;
@@ -136,6 +146,8 @@ section {
 
 .abi_item img {
 	width: 30px;
+	margin-right: 16px;
+	vertical-align: middle;
 }
 
 

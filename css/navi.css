@@ -14,17 +14,29 @@
 	display: inline-block;
 }
 
-.navigation a {
+.navigation .logo {
 	margin-left: 32px;
 	text-decoration: none;
+}
+
+.navigation a {
+	margin-right: 16px;
 }
 
 .navigation a:last-child {
 	margin-right: 32px;
 }
 
+
 .logo {
 	font-family: 'Roboto Slab';
 	font-size: 20px;
 	font-weight: 700;
+}
+
+.footer {
+	font-size: 14px;
+	width: 100vw;
+	text-align: center;
+	padding: 20px;
 }
