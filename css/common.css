@@ -63,6 +63,10 @@
 	vertical-align: middle;
 }*/
 
+body {
+	margin: 0;
+}
+
 body::-webkit-scrollbar , .modal::-webkit-scrollbar{
     width: 1em;
 }

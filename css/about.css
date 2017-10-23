@@ -1,62 +1,145 @@
-#intro {
-	width: 75%;
+*{
+	/*border: solid 1px #3f3f3f;*/
 }
 
-#intro img {
-	height: 180px;	
+ul {
+	padding-left: 0;
+}
+
+h3 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+section {
+	margin-bottom: 80px;
+}
+
+.section_title {
+	font-family: 'Roboto Slab';
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-top: 0;
 	margin-bottom: 32px;
 }
 
-#about section {
-	padding-top: 32px;
-	padding-left: 10%;
+
+
+.container {
+	display: flex;
+	justify-content: center;
+	padding: 68px 56px;
 }
 
-
-
-#about section h2 {
-	margin-top: 0;
-	margin-bottom: 0;
+.left {
+	width: 220px;
+	flex-grow: 0;
+	flex-shrink: 0
 }
 
-#about section h3 {
-	text-transform: uppercase;
+.left p {
+	font-weight: 400;
+	width: 220px;
 }
 
-#about section ul li{
-	list-style: none;
-	font-size: 16px;
-	font-weight: 300;
+.profile_img {
+	width: 220px;
+}
+
+.mega_title {
+	font-size: 32px;
+	font-family: 'Roboto Slab';
+	font-weight: 400;
+}
+.right {
+	width: 30vw;
+	flex-shrink:0;
+	margin-left: 10%;
+}
+
+.year {
+	width: 56px;
+	position: relative;
+	margin-right: 28px;
+}
+.year span{
+	display: block;
+	font-size: 12px;
+	color: #4A4A4A;
+}
+.from {
+	position: absolute;
+	top: 0;
+	padding-bottom: 12px;
+}
+
+.from, .to {
+	color: #9b9b9b;
+	font-weight: 400;
+	background-color: #eaeaea;
+}
+
+.to {
+	padding-top: 12px;
+	position: absolute;
+	bottom: 0;
+}
+
+.year:after {
+	content: '';
+	display: block;
+	width: 2px;
+	height: 100%;
+	background-color: #9B9B9B;
+	position: absolute;
+	left: 24px;
+	z-index: -2;
+
+}
+
+.work_item {
+	display: flex;
+}
+
+.position_title {
+	margin-top: 4px;
+	color: #4a4a4a;
+	font-weight: 400;
+}
+
+.work_item li {
+	list-style-type: none;
 	margin-bottom: 8px;
 }
 
-#about section ul {
-	padding: 0;
+.work_item li:before {
+	content: '- ';
 }
 
-#about .work_item ul li::before {
-	content:"- ";
+.ability ul li{
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
 }
 
-#ability li {
+.ability ul li span{
+	width: 100px;
+	flex-grow: 0;
+	flex-shrink: 0;
+}
+
+.abi_item {
+	flex: 2;
+	margin-bottom: 40px;
+}
+
+.abi_item img {
+	width: 30px;
+}
+
+
+.ability ul>li>ul>li {
 	display: inline-block;
-	width: 80px;
-	margin-right: 16px;
-
-	text-align: center;
-	vertical-align: middle;
-}
-
-
-#about section .postion_date p{
-	display: inline-block;
-	margin-right: 12px;
-	margin-top: 0;
-	margin-bottom: 0;
-	color: #606060;
-}
-
-#about .work_item {
-	margin-bottom: 56px;
 }
 
