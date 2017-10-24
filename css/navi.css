@@ -23,6 +23,7 @@
 
 .navigation a {
 	margin-right: 16px;
+	text-decoration: none;
 }
 
 .navigation a:last-child {
