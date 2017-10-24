@@ -2,8 +2,10 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	box-shadow: 0 10px 10px #eaeaea;
-	height: 80px;
+	box-shadow: 0 10px 40px 10px #eaeaea;
+	height: 72px;
+	background-color: #eaeaea;
+	z-index: 10;
 }
 
 .navigation ul {
@@ -39,4 +41,12 @@
 	width: 100vw;
 	text-align: center;
 	padding: 20px;
+	color: #4a4a4a;
+}
+
+.fixed {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
 }

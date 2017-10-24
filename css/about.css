@@ -33,7 +33,7 @@ section:last-child {
 .container {
 	display: flex;
 	justify-content: center;
-	padding: 68px 56px;
+	padding: 148px 56px 64px 56px;
 }
 
 .left {
@@ -76,6 +76,7 @@ section:last-child {
 .from {
 	position: absolute;
 	top: 0;
+	padding-top: 4px;
 	padding-bottom: 12px;
 }
 
