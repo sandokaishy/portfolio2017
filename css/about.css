@@ -42,6 +42,24 @@ section:last-child {
 	width: 220px;
 }
 
+.social {
+	list-style-type: none;
+}
+
+.social li {
+	display: inline-block;
+	margin-right: 8px;
+}
+
+.social img {
+	width: 30px;
+	transition: ease-in 0.3s all;
+}
+
+.social img:hover {
+	opacity: 0.8;
+}
+
 .profile_img {
 	width: 220px;
 }

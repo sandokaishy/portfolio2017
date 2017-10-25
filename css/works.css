@@ -16,8 +16,19 @@
 	margin-bottom: 12px;
 }
 
+.filter_container li a {
+	padding: 8px 12px;
+	text-decoration: none;
+}
+
 .filter_container ul {
 	padding-left: 0;
+}
+
+.filter.active {
+	background-color: #3b3b3b;
+	color: #eaeaea;
+	border-radius: 2px;
 }
 
 .container {

@@ -48,9 +48,10 @@
 		z-index: -1;
 		bottom: 10vh;
 		right: 0;
-		opacity: 1;
+		opacity: 0.7;
 		background-image: url(../img/index/index_cover.png);
 		background-size: contain;
+		background-position: 50% 50%;
 		background-repeat: no-repeat;
 	}
 }
@@ -68,7 +69,7 @@
 		z-index: -1;
 		bottom: 0;
 		right: 0;
-		opacity: 1;
+		opacity: 0.7;
 		background-image: url(../img/index/index_cover.png);
 		background-size: contain;
 		background-position: 50% 50%;
@@ -93,7 +94,7 @@
 		z-index: -1;
 		bottom: 10vh;
 		right: 0;
-		opacity: 1;	
+		opacity: 0.7;	
 	}
 }
 
