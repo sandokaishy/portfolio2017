@@ -14,6 +14,22 @@ section {
 section:last-child {
 	margin-bottom: 40px;
 }
+a.download_cv {
+	font-size: 14px;
+	font-family: 'Roboto';
+	font-weight: 700;
+	margin-left: 14px;
+	letter-spacing: 0;
+	text-decoration: none;
+	padding: 6px 10px;
+	border-radius: 2px;
+	background-color: black;
+	color: #eaeaea;
+	transition: ease-in 0.3s all;
+}
+.download_cv:hover {
+	background-color: #3f3f3f;
+}
 
 .section_title {
 	font-family: 'Roboto Slab';
