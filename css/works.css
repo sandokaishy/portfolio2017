@@ -41,11 +41,11 @@
 
 .project_item img {
 	height: 100%;
-	transition: ease-in 0.3s all;
+	transition: ease-out 20s all;
 }
 
 .project_item h3 {
-	font-size: 20px;
+	font-size: 28px;
 	font-weight: 400;
 	position: absolute;
 	text-align: center;
@@ -63,8 +63,8 @@
 }
 
 .project_item:hover img {
-	transform: scale(1.5);
-	animation: project_img 30s infinite;
+	transform: scale(1.5) translate(-50%);
+/*	animation: project_img 30s infinite;*/
 }
 
 .project_item:hover h3 {
@@ -83,7 +83,7 @@
 	transition: ease-in 0.2s all;
 }
 
-@-webkit-keyframes project_img {
+/*@-webkit-keyframes project_img {
   0%   { transform: translate(0,0); }
   100% { transform: translate(-50%); }
 }
@@ -98,4 +98,4 @@
 @keyframes project_img {
   0%   { transform: translate(0,0); }
   100% { transform: translate(-50%); }
-}
+}*/
