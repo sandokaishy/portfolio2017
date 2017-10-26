@@ -1,0 +1,72 @@
+.container {
+	display: flex;
+	justify-content: center;
+	padding: 0px 56px 72px 56px;
+	margin-left: -56px;
+	flex-wrap: wrap;
+}
+
+.container img {
+	width: 100%;
+	height: auto;
+}
+
+.project_img {
+	width: 40vw;
+}
+
+section {
+	width: 40vw;
+	display: inline-block;
+}
+
+.project_img, section {
+	margin-bottom: 48px;
+	margin-left: 56px;
+}
+
+section h3 {
+	margin-top: 0;
+}
+
+section .description {
+	margin-bottom: 40px;
+}
+
+.project_info {
+	display: flex;
+	padding: 72px 56px 56px 56px;
+	margin-left: -56px;
+	justify-content: center;
+}
+
+.project_name {
+	width: 40vw;
+}
+
+.project_name, .project_details {
+	margin-left: 56px;
+}
+
+.project_name h2 {
+	font-family: 'Roboto Slab';
+	font-size: 42px;
+	font-weight: 400;
+}
+
+.project_details {
+	width: 40vw;
+	padding-left: 0;
+	list-style-type: none;
+}
+
+.project_details li {
+	margin-bottom: 4px;
+}
+
+.project_details li span {
+	display: inline-block;
+	width: 150px;
+	font-weight: 600;
+	margin-right: 16px;
+}
