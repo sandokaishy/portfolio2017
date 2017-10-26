@@ -42,9 +42,55 @@
 	/*position: relative;*/
 }
 
+.animate_img {
+	overflow: hidden;
+	width: 0;
+	height: 30vh;
+	position: absolute;
+	/*background-color: yellow;*/
+	right: 0;
+	transition: ease-in-out 1s 0.2s all;
+	z-index: -1;
+}
 
-@media screen and (min-width: 1201px) {
 
+
+@media screen and (min-width: 1024px) {
+	.about_cover div {
+		width: 50vw;
+		height: 30vh;
+		display: block;
+		transform: translateX(-110%);
+		background-image: url(../img/index/index_cover.jpg);
+		background-size: cover;
+		-webkit-filter: grayscale(100%);
+		transition: ease-in-out 0.6s all;
+	}
+
+	.works_cover div {
+		width: 50vw;
+		height: 30vh;
+		display: block;
+		transform: translateX(-110%);
+		background-image: url(../img/index/index_cover2.png);
+		background-size: cover;
+		-webkit-filter: grayscale(100%);
+		transition: ease-in-out 0.6s all;
+	}
+	.works_cover {
+		bottom: 20vh;
+	}
+
+	.about_cover.active {
+		width: 50vw;
+	}
+	.works_cover.active {
+		width: 40vw;
+	}
+
+	.animate_img.active div {
+		transform: translateX(0%);
+	}	
 }
 
 
