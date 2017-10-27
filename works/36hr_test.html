@@ -3,75 +3,85 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Pointimize 36hrs Test</title>
-	<link rel="stylesheet" href="../css/bootstrap-grid.min.css">
 	<link rel="stylesheet" href="../css/font.css">
-	<link rel="stylesheet" type="text/css" href="../css/verb.css">	
+	<link rel="stylesheet" href="../css/project_page.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css" />
+	<script src="../js/jquery-3.2.1.min.js"></script>
+	<script src="../js/project.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js"></script>	
 </head>
 <body>
-	<div class="project_page container-fluid">
-		<div class="row justify-content-center">
-			<div class="col-md-9">
-				<h1>Pointimize 36hrs Test</h1>
-				<ul class="project_details">
-					<li><span>Date:</span> Sep. 2017</li>
-					<li><span>UI/UX Design:</span> Sheng Pan</li>
-					<li><span>Time Cost:</span> 16 hours</li>
-				</ul>
-			</div>
-	  	<div class="col-md-9">
-	  		<img class="project_img" src="../img/point_test/36hr_cover_lg.png" alt="cover">
-	  		<div class="wording">
-					<p>It's a UI/UX test for interview of Pointimize. There are two parts in this test: UI part is redesign the mobile website of skyscanner and UX part is redesign the user experience of AWARDACE(desktop). I got 36hrs to complete this test.</p>
-	  		</div>
-	  	</div>
+	<div id="project_title" class="project_info">
+		<div class="project_name">
+			<h2>Pointimize 36hrs Test</h2>
 		</div>
-		<div class="row justify-content-center">
-			<div class="col-md-5">
-				<img class="project_img" src="../img/point_test/destination.png" alt="date">
+		<ul class="project_details">
+			<li><span>Date:</span> Sep. 2017</li>
+			<li><span>UI/UX Design:</span> Sheng Pan</li>
+			<li><span>Time Cost:</span> 16 hours</li>	
+		</ul>			
+	</div>
+	<div class="container">
+		<a class="project_img" href="../img/point_test/36hr_cover_lg.png" data-fancybox data-caption="My caption">
+			<img src="../img/point_test/36hr_cover_lg.png" alt="img1">
+		</a>
+		<section>
+			<div class="description">
+				<p>It's a UI/UX test for interview of Pointimize. There are two parts in this test: UI part is redesign the mobile website of skyscanner and UX part is redesign the user experience of AWARDACE(desktop). I got 36hrs to complete this test.</p>				
 			</div>
-			<div class="col-md-4">
-				<h2>Skyscanner redesign</h2>
+		</section>
+		<a class="project_img" href="../img/point_test/destination.png" data-fancybox data-caption="My caption">
+			<img src="../img/point_test/destination.png" alt="img2">
+		</a>
+		<section>
+			<div class="description">
+				<h3>Skyscanner redesign</h3>
 				<p>Due to the limited time, I design the smallest viewport size of mobile: Iphone5. I know there are people still using Iphone4, and it also looks fine on Iphone4.</p>
 				<p>I reduce the long length of height by combining forms into one. There are too many forms on the mobile that causes the height over the viewport, so I decide to make user focus on one thing at one time.</p>								
-				<p>I redesign the departure and arrival form into one form. User could click to decide their destination.</p>
+				<p>I redesign the departure and arrival form into one form. User could click to decide their destination.</p>				
 			</div>
-		</div>
-		<div class="row justify-content-center">
-			<div class="col-md-5">
-				<img class="project_img" src="../img/point_test/date.png" alt="my83_2">
-			</div>
-			<div class="col-md-4">
+		</section>
+		<a class="project_img" href="../img/point_test/date.png" data-fancybox data-caption="My caption">
+			<img src="../img/point_test/date.png" alt="img3">
+		</a>
+		<section>
+			<div class="description">
 				<h3>Round trip Date selection</h3>
-				<p>In the same mindset, I combine two form (departure and return date) into one form.</p>
-			</div>			
-		</div>
-		<div class="row justify-content-center">
-			<div class="col-md-5">
-				<img class="project_img" src="../img/point_test/traveler.png" alt="my83_component">
+				<p>In the same mindset, I combine two form (departure and return date) into one form.</p>	
 			</div>
-			<div class="col-md-4">
+		</section>
+		<a class="project_img" href="../img/point_test/traveler.png" data-fancybox data-caption="My caption">
+			<img src="../img/point_test/traveler.png" alt="img4">
+		</a>
+		<section>
+			<div class="description">
 				<h3>Traveler information</h3>
-				<p>Traveler information is the main problem that casue the long page. So I think it's better to show all the information after clicking the form. Don't worry, the form will show the summary of your traveler information after selection.</p>
-				
+				<p>Traveler information is the main problem that casue the long page. So I think it's better to show all the information after clicking the form. Don't worry, the form will show the summary of your traveler information after selection.</p>				
 			</div>
-		</div>
-		<div class="row justify-content-center">
-			<div class="col-md-9">
-				<img class="project_img" src="../img/point_test/before_after.png" alt="my83_component">
-			</div>
-		</div>
-		<div class="row justify-content-center">
-			<div class="col-md-9">
-				<h2>AWARDACE UX redesign</h2>
+		</section>
+		<a class="project_img" href="../img/point_test/before_after.png" data-fancybox data-caption="My caption">
+			<img src="../img/point_test/before_after.png" alt="img5">
+		</a>
+		<section>
+			<div class="description">
+				<h3>AWARDACE UX redesign</h3>
 				<p>AwardAce Pricing Calculator alow people to find mileage redemption rates using different airline loyalty programs.</p>
-				<p>I focus on the searching behavior and revise the UI of searching. I found that there are too many unnecessary components during the flow of searching milage redemption. As a result, I decide to split out some condition as filter after user fill in the main purpose: the departure and the arrival location for the flights.</p>
+				<p>I focus on the searching behavior and revise the UI of searching. I found that there are too many unnecessary components during the flow of searching milage redemption. As a result, I decide to split out some condition as filter after user fill in the main purpose: the departure and the arrival location for the flights.</p>							
+			</div>
+		</section>
+		<a class="project_img" href="../img/point_test/awardace_result.png" data-fancybox data-caption="My caption">
+			<img src="../img/point_test/awardace_result.png" alt="img6">
+		</a>
+		<section>
+			<h3>UX Redesign file</h3>
+			<div class="description">
+				We can see AWARDACE UX redesign slider file below.
 				<a href="https://www.dropbox.com/s/2fe80o4xwjj9vos/Pointimize%20UX.key?dl=1">See the full brief of the UX redesign</a>
 			</div>
-			<div class="col-md-9">
-				<img class="project_img" src="../img/point_test/awardace_result.png" alt="my83_component">
-			</div>
-		</div>				
-	</div>
+		</section>
+	</div>	
+
+
 
 					
 </body>
