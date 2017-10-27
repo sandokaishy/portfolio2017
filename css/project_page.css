@@ -33,6 +33,21 @@ section .description {
 	margin-bottom: 40px;
 }
 
+#project_title.fixed h2 {
+	font-size: 20px;
+	background-color: #eaeaea;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	padding: 12px 0;
+	box-shadow: 0 10px 40px 10px #eaeaea;
+	transition: ease-in-out 0.3s all;
+}
+
+#prokect_title.fixed .project_details {
+	display: none;
+}
+
 .project_info {
 	display: flex;
 	padding: 72px 56px 56px 56px;
@@ -50,6 +65,7 @@ section .description {
 
 .project_name h2 {
 	font-family: 'Roboto Slab';
+	margin-top: 0;
 	font-size: 42px;
 	font-weight: 400;
 }
