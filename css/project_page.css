@@ -25,6 +25,19 @@ section {
 	margin-left: 56px;
 }
 
+.project_img.multi_img {
+	display: flex;
+	justify-content: space-between;
+}
+
+.project_img.multi_img a {
+	width: 30%;
+}
+
+.project_img.multi_img .day17_img {
+	width: 60%;
+}
+
 section h3 {
 	margin-top: 0;
 }
