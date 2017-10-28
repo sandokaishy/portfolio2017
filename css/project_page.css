@@ -56,20 +56,17 @@ section .description a {
 	text-decoration: none;
 }
 
-#project_title.fixed .project_name {
+#project_title.fixed .project_name h2{
 	background-color: #eaeaea;
 	position: fixed;
-	width: 100%;
+	font-size: 20px;
+	width: auto;
 	top: 0;
 	left: 0;
-	padding: 12px 56px;
+	right: 0;
+	padding: 20px 56px;
 	box-shadow: 0 5px 30px 10px #eaeaea;
 	transition: ease-in-out 0.3s all;
-}
-
-#project_title.fixed .project_name h2 {
-	font-size: 20px;
-	word-break: normal;
 }
 
 #prokect_title.fixed .project_details {
@@ -120,12 +117,22 @@ section .description a {
 		padding: 36px 20px 0 20px;
 		margin-left: 0;
 	}
-	#project_title.fixed .project_name{
-		width: auto;
+
+	#project_title {
+		margin-top: 42px;
+	}
+
+	#project_title h2{
+		font-size: 32px;
+		line-height: 1.2;
+	}
+
+	#project_title.fixed .project_name h2 {
+		padding: 32px 28px;
 	}
 
 	.project_img, section {
-		width: 90vw;
+		width: 100%;
 		margin-left: 0;
 	}
 
@@ -140,7 +147,7 @@ section .description a {
 		border-bottom: 4px solid #3b3b3b;
 	}
 	.project_name, .project_details {
-		width: 90vw;
+		width: 100%;
 		margin-left: 0;
 	}
 
