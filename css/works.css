@@ -145,13 +145,14 @@
 		margin-right: 8px;
 	}
 	.project_item h3 {
-		font-size: 24px;
+		font-size: 20px;
+		letter-spacing: 1;
 		font-weight: 300;
 		color: white;
 		position: absolute;
 		text-align: center;
 		top: 50%;
-		transform: translateY(-20%);
+		transform: translateY(-40%);
 		margin: 0;
 		width: 100%;
 		z-index: 2;
