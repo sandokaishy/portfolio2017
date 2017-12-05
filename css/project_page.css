@@ -2,7 +2,6 @@
 	display: flex;
 	justify-content: center;
 	padding: 0px 56px 72px 56px;
-	margin-left: -56px;
 	flex-wrap: wrap;
 }
 
@@ -12,17 +11,16 @@
 }
 
 .project_img {
-	width: 40vw;
+	width: 72vw;
 }
 
 section {
-	width: 40vw;
+	width: 72vw;
 	display: inline-block;
 }
 
 .project_img, section {
 	margin-bottom: 48px;
-	margin-left: 56px;
 }
 
 .project_img.multi_img {
@@ -56,7 +54,7 @@ section .description a {
 	text-decoration: none;
 }
 
-#project_title.fixed .project_name h2{
+#project_title.fixed .project_name h1{
 	background-color: #eaeaea;
 	position: fixed;
 	font-size: 20px;
@@ -75,39 +73,58 @@ section .description a {
 
 .project_info {
 	display: flex;
-	padding: 72px 56px 56px 56px;
-	margin-left: -56px;
+	padding: 56px;
+	flex-wrap: wrap;
 	justify-content: center;
 }
-
-.project_name {
-	width: 40vw;
+.project_date,.project_name {
+	width: 72vw;
 }
 
-.project_name, .project_details {
-	margin-left: 56px;
+.project_date {
+	display: flex;
+	justify-content: space-between;
+	border-top: 4px solid black;
+	border-bottom: 2px solid black;
+	padding: 12px 4px;
 }
 
-.project_name h2 {
-	font-family: 'Roboto Slab';
+.project_date i {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.project_name h1 {
+	font-family: 'Roboto';
 	margin-top: 0;
+	margin-bottom: 12px;
 	font-size: 42px;
-	font-weight: 400;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.project_name p{
+	font-family: 'Roboto Slab';
+	font-size: 20px;
+	margin-top: 0;
+	margin-bottom: 12px;
 }
 
 .project_details {
-	width: 40vw;
+	width: 72vw;
 	padding-left: 0;
 	list-style-type: none;
 }
 
 .project_details li {
+	display: flex;
 	margin-bottom: 4px;
+	font-size: 14px;
 }
 
 .project_details li span {
 	display: inline-block;
-	width: 150px;
+	min-width: 150px;
 	font-weight: 600;
 	margin-right: 16px;
 }
@@ -127,17 +144,16 @@ section .description a {
 		line-height: 1.2;
 	}
 
-	#project_title.fixed .project_name h2 {
+	#project_title.fixed .project_name h1 {
 		padding: 32px 28px;
 	}
 
-	.project_img, section {
+	.project_img,.project_date, section {
 		width: 100%;
 		margin-left: 0;
 	}
 
 	.project_info {
-		flex-direction: column;
 		padding: 20px;
 		margin-left: 0;
 	}
