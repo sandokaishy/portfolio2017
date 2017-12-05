@@ -25,6 +25,7 @@ a.download_cv {
 	border-radius: 2px;
 	background-color: black;
 	color: #eaeaea;
+	white-space:nowrap;
 	transition: ease-in 0.3s all;
 }
 .download_cv:hover {
