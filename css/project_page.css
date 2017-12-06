@@ -1,7 +1,7 @@
 .container {
 	display: flex;
 	justify-content: center;
-	padding: 0px 56px 72px 56px;
+	padding: 0px 56px 64px 56px;
 	flex-wrap: wrap;
 }
 
@@ -11,13 +11,9 @@
 }
 
 .project_img {
-	width: 72vw;
+	width: 64vw;
 }
 
-section {
-	width: 72vw;
-	display: inline-block;
-}
 
 .project_img, section {
 	margin-bottom: 48px;
@@ -36,7 +32,13 @@ section {
 	width: 60%;
 }
 
+section {
+	width: 64vw;
+	display: inline-block;
+}
+
 section h3 {
+	font-family: 'Roboto Slab';
 	margin-top: 0;
 }
 
@@ -78,7 +80,7 @@ section .description a {
 	justify-content: center;
 }
 .project_date,.project_name {
-	width: 72vw;
+	width: 64vw;
 }
 
 .project_date {
@@ -86,7 +88,8 @@ section .description a {
 	justify-content: space-between;
 	border-top: 4px solid black;
 	border-bottom: 2px solid black;
-	padding: 12px 4px;
+	padding: 8px 4px;
+	margin-bottom: 8px;
 }
 
 .project_date i {
@@ -97,21 +100,23 @@ section .description a {
 .project_name h1 {
 	font-family: 'Roboto';
 	margin-top: 0;
-	margin-bottom: 12px;
+	margin-bottom: 8px;
 	font-size: 42px;
 	font-weight: 700;
 	text-transform: uppercase;
+	letter-spacing: 2px;
 }
 
 .project_name p{
 	font-family: 'Roboto Slab';
 	font-size: 20px;
 	margin-top: 0;
-	margin-bottom: 12px;
+	margin-bottom: 24px;
+	letter-spacing: 1px;
 }
 
 .project_details {
-	width: 72vw;
+	width: 64vw;
 	padding-left: 0;
 	list-style-type: none;
 }
