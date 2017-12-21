@@ -86,10 +86,9 @@ section .description a {
 .project_date {
 	display: flex;
 	justify-content: space-between;
-	border-top: 4px solid black;
+	/*border-top: 4px solid black;*/
 	border-bottom: 2px solid black;
-	padding: 8px 4px;
-	margin-bottom: 8px;
+	padding: 4px 4px 16px 4px;
 }
 
 .project_date i {
@@ -100,8 +99,8 @@ section .description a {
 .project_name h1 {
 	font-family: 'Roboto';
 	margin-top: 0;
-	margin-bottom: 8px;
-	font-size: 42px;
+	margin-bottom: 20px;
+	font-size: 56px;
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -111,7 +110,7 @@ section .description a {
 	font-family: 'Roboto Slab';
 	font-size: 20px;
 	margin-top: 0;
-	margin-bottom: 24px;
+	margin-bottom: 0px;
 	letter-spacing: 1px;
 }
 
@@ -119,6 +118,7 @@ section .description a {
 	width: 64vw;
 	padding-left: 0;
 	list-style-type: none;
+	line-height: 1.4;
 }
 
 .project_details li {
