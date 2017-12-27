@@ -5,116 +5,164 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<title>Sudo Recruit</title>
 	<link rel="stylesheet" href="../css/font.css">
+	<link rel="stylesheet" href="../css/common.css">
 	<link rel="stylesheet" href="../css/project_page.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css" />
 	<script src="../js/jquery-3.2.1.min.js"></script>
-	<script src="../js/project.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js"></script>	
 </head>
 <body>
 	<div id="project_title" class="project_info">
 		<div class="project_name">
-			<h2>Sudo Recruit websites and mobile app</h2>
+			<h1>Sudo Recruit</h1>
+			<p>websites and mobile applications</p>
 		</div>
-		<ul class="project_details">
-			<li><span>Date:</span> Oct. 2013 - Oct. 2016</li>
-			<li><span>Framwork, Libraries:</span> Ruby On Rails, React.js, Node.js, React Native</li>
-			<li><span>UI/UX Design:</span> Sheng Pan</li>
-			<li><span>Product Manager:</span> James Chen</li>
-			<li><span>Backend Developer:</span> Ben Yeh</li>
-			<li><span>Frontend Developer:</span> Denny Ku, Kalan Chen, Asa Tsai, Sheng Pan (HTML/CSS parts)</li>
-			<li><span>DevOps:</span> Henry Wu</li>			
-		</ul>			
+		<div class="project_date">
+			<i>Oct. 2013 - Oct. 2016</i>
+			<i>UI/ UX</i>
+		</div>
+		<div class="project_cover">
+			<img src="../img/sudo/Sudo_cover.png" alt="">
+		</div>		
 	</div>
+<!-- 	<ul class="project_details">
+		<li><span>Framwork, Libraries:</span> Ruby On Rails, React.js, Node.js, React Native</li>
+		<li><span>UI/UX Design:</span> Sheng Pan</li>
+		<li><span>Product Manager:</span> James Chen</li>
+		<li><span>Backend Developer:</span> Ben Yeh</li>
+		<li><span>Frontend Developer:</span> Denny Ku, Kalan Chen, Asa Tsai, Sheng Pan (HTML/CSS parts)</li>
+		<li><span>DevOps:</span> Henry Wu</li>			
+	</ul>	 -->	
 	<div class="container">
-		<a class="project_img" href="../img/sudo/sudo_landing_1.jpg" data-fancybox data-caption="My caption">
-			<img src="../img/sudo/sudo_landing_1.jpg" alt="img1">
-		</a>		
 		<section>
-			<div class="description">
-				<h3>關於 Sudo Recruit</h3>
-				<p>Sudo Recruit 以 Linux 程序為名，致力將台灣打造為下一個矽谷，成為軟體專才及網路菁英匯聚的亞洲心臟 。
-				Sudo Recruit 旨在提供最高規格的求職媒合服務，以專業顧問的方式，協助台灣人才站上對的舞台發光發熱。
-				</p>
-				<p>第一階段會先建立一個求職平台，搭配現下的獵頭服務發掘更多求職洞察，蒐集足夠的求職者洞察，發展第二階段：以系統判斷後進行媒合的半自動化功能。</p>				
-			</div>
-			<div class="description">
-				<h3>兩種使用者</h3>
-				<p>平台上分為兩種使用者，求職者與公司人資。
-				公司人資與一般使用者相同，可以維護自己的個人履歷（稱之為 Profile），但與求職者不同的是他們可以創建公司資料，而公司下又可以創建職缺；因此公司人資可以維護的有公司的資料、職缺與人資個人的履歷。
-				</p>				
-			</div>
+			<h2>About this project</h2>
+			<p>Sudo Recruit is a platform not only helps companies find good talents but also provides good positions for job seekers. We hope to make the process of job seeking more efficient. </p>
+			<p>Before we figure out solutions to speed up the process, we need more data like the behavior of job seeker, the preference of job seeking and other factors that will impact job seekers decisions on choosing vacancy or company.
+			<br />	On the other hand, company is another important factor that determine the whole process efficiency. We have to learn about what kind of talent company will recruit due to the funding stage, culture and so on.</p>
+			<p>To learn more about the journey (or process) of job seeking and recruiting, we developed a job platform.</p>
 		</section>
-		<a class="project_img" href="../img/sudo/sudo_font_color.png" data-fancybox data-caption="My caption">
-			<img src="../img/sudo/sudo_font_color.png" alt="img2">
-		</a>		
+
 		<section>
-			<h3>顏色與字型</h3>
-			<p>承襲 Sudo C.I. 的基礎規範，沿用 Sudo 的藍色與基本的思源黑體。由於螢光綠色在螢幕上會造成文字閱讀不易，所以調整原先螢光綠色的亮度，改為較為暗淡的綠色作為強調色。</p>
-		</section>
-		<a class="project_img" href="../img/sudo/sudo_landing.png" data-fancybox data-caption="My caption">
-			<img src="../img/sudo/sudo_landing.png" alt="img3">
-		</a>
+			<h2>First Stage: We need more vacancies</h2>
+			<p>A job platform needs users (job seekers) and companies. We decided to grow the company side on the libra. Focusing on company side, we created a flow that didn’t put vacancy or position at the first place. How to SELL company is the mission in the first stage of Sudo.
+			</p>
+			<a class="project_img" href="../img/sudo/stage_1/Sudo_first wireframe.png" data-fancybox data-caption="We didn't highlight the jobs on the platform at the beginning.">
+				<img src="../img/sudo/stage_1/Sudo_first wireframe.png" alt="stage_flow">
+			</a>			
+		</section>		
 		<section>
 			<h3>Landing Page</h3>
-			<p>使用者可以透過 Landing page 直接搜尋職缺，進而從職缺內容連結至詳細的公司頁面。<br />另外，透過上方的 navigation bar，使用者也可以直接跳到職缺列表與公司列表，輸入搜尋條件開始找尋自己偏好的公司與工作。</p>
+			<p>At the begin, job was not the primary thing we would like to sell. We try to sell the atmosphere, the culture and the environment of the company.</p>
+			<a class="project_img" href="../img/sudo/stage_1/Sudo_1.png" data-fancybox data-caption="Landing Page focus on displaying companies.">
+				<img src="../img/sudo/stage_1/Sudo_1.png" alt="landing_v1">
+			</a>			
 		</section>
-		<a class="project_img" href="../img/sudo/sudo_job_index.png" data-fancybox data-caption="My caption">
-			<img src="../img/sudo/sudo_job_index.png" alt="img4">
-		</a>
+		<section>
+			<h3>Company Index Page</h3>
+			<p>Company index page shows the culture, atmosphere, environment and team size through the cover image.</p>
+			<a class="project_img" href="../img/sudo/stage_1/Sudo_2.png" data-fancybox data-caption="Company index shows the cover image of companies.">
+				<img src="../img/sudo/stage_1/Sudo_2.png" alt="company_index_v1">
+			</a>			
+		</section>
+
+		<section>
+			<h3>Company Show Page</h3>
+			<p>Pictures  are always eye-catching. To show much information about what the office looks like and team members as possible, there are three parts of cover image in company show page.</p>
+			<a class="project_img" href="../img/sudo/stage_1/Sudo_3.png" data-fancybox data-caption="There are three parts of company image which shows the culture, atmosphere of the company.">
+				<img src="../img/sudo/stage_1/Sudo_3.png" alt="company_show_v1">
+			</a>
+		</section>
+
+		<section>
+			<h3>Job Show Page</h3>
+			<a class="project_img" href="../img/sudo/stage_1/Sudo_4.png" data-fancybox data-caption="The first version of job show.">
+				<img src="../img/sudo/stage_1/Sudo_4.png" alt="job_show_v1">
+			</a>
+			<a class="project_img" href="../img/sudo/stage_1/Sudo_5.png" data-fancybox data-caption="Job seeker must signed in to apply for jobs. And Sudo will check for the resume qualified or not.">
+				<img src="../img/sudo/stage_1/Sudo_5.png" alt="job_show_apply">
+			</a>
+			<iframe height="315" src="https://www.youtube.com/embed/zFs_iPYsKb8?rel=0&autoplay=1&loop=1&playlist=zFs_iPYsKb8" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>					
+		</section>
+
+		<section>
+			<h3>Profile Edit (Job seekers)</h3>
+			<p>There are too many things to do on the resume. Writing resume is time costing. We separate resume into few parts, it reduce the resistance to complete the resume.</p>
+			<a class="project_img" href="../img/sudo/stage_1/Sudo_6.png" data-fancybox data-caption="Seperated into few steps keep users from the pressure of completing resume at once.">
+				<img src="../img/sudo/stage_1/Sudo_6.png" alt="profile_edit_v1">
+			</a>			
+		</section>
+
+		<section>
+			<h3>Profile Show Page</h3>
+			<p>Every job seeker could apply for jobs after Sudo reviewed their resume. The profile show page shows the status of the reviews.</p>
+			<a class="project_img" href="../img/sudo/stage_1/Sudo_7.png" data-fancybox data-caption="Profile page shows the resume is completed or not, qualified or not.">
+				<img src="../img/sudo/stage_1/Sudo_7.png" alt="profile_show_v1">
+			</a>				
+		</section>
+		<section>
+			<h2>Second Stage: More jobs, more job seekers</h2>
+			<p>As the quantity of companies grew, we applied elastic search to help job seekers find companies they are interested in. On the other hand, job search is needed as the company users grew.</p>
+		</section>		
+		<section>
+			<h3>Landing Page (Ver.2)</h3>
+			<p>Now we have enough job vacancies on Sudo. Back to the journey of job seeking, we knew that job is more inviting than companies. <br />As a result, we changed the main selling point of our landing page. By showing categories of jobs, we got more user exploring on our sites. Search bar on the landing page made job seeking more convenient.</p>
+			<a class="project_img" href="../img/sudo/stage_2/s2_Sudo_1.png" data-fancybox data-caption="Job search bar at the landing page makes users(not only members of sudo) easy to find jobs.">
+				<img src="../img/sudo/stage_2/s2_Sudo_1.png" alt="landing_page_v2">
+			</a>				
+		</section>
+		<section>
+			<h3>Company index Page (Ver.2)</h3>
+			<p>At this version, we highlighted the information based on the survey result from the job seekers. Before job seekers got to the company show page, they would care about the funding stage, company scale(how many people) and the service they provide. We grabbed those information out and put them on the company index page.</p>
+
+			<p>For Legibility of the information,  card style is the final decision we made to renew our company index page</p>
+			<a class="project_img" href="../img/sudo/stage_2/s2_Sudo_2.png" data-fancybox data-caption="Job search bar at the landing page makes users(not only members of sudo) easy to find jobs.">
+				<img src="../img/sudo/stage_2/s2_Sudo_2.png" alt="company_index_v2">
+			</a>					
+		</section>
 		<section>
 			<h3>Job Index Page</h3>
-			<p>使用者可以依照所屬類別找尋職缺，透過篩選器排列職缺。<br />每一筆職缺呈現的資訊除了薪資之外，更加上了技術標籤，讓求職者比較快速理解該職缺所需要的技術。</p>
+			<p>As the volume of job growing up, we need not only a page but also a tool for job seeking. Job index page is a feature that we try to make job seeking more precise, so it is our first try.</p>
+			<a class="project_img" href="../img/sudo/stage_2/s2_Sudo_3.png" data-fancybox data-caption="Categorize all the jobs and filters, we try to help job seekers find job precisely.">
+				<img src="../img/sudo/stage_2/s2_Sudo_3.png" alt="job_index">
+			</a>					
 		</section>
-		<a class="project_img" href="../img/sudo/sudo_job_company.png" data-fancybox data-caption="My caption">
-			<img src="../img/sudo/sudo_job_company.png" alt="img4">
-		</a>
 		<section>
-			<h3>Company/ Job information</h3>
-			<p>使用者可以依照所屬類別找尋職缺，透過篩選器排列職缺。<br />每一筆職缺呈現的資訊除了薪資之外，更加上了技術標籤，讓求職者比較快速理解該職缺所需要的技術。</p>
+			<h3>Job Application Page</h3>
+			<p>Waiting is very suffering after job seekers submit the applications. Job seekers could trace the status of the application they submitted. When the application got rejected, when they got the offer… There won’t be any “no response” after applying for those vacancies.</p>
+			<a class="project_img" href="../img/sudo/stage_2/s2_Sudo_4.png" data-fancybox data-caption="Job seekers could see the status of the applications and resond the offers they got.">
+				<img src="../img/sudo/stage_2/s2_Sudo_4.png" alt="job_applications">
+			</a>					
+		</section>		
+		<section>
+			<h2>Third Stage: Better experience of Profile Editing</h2>
+			<p>At this stage, we grew up our company clients and job seekers volume. We hope to make both of them satisfied, so we did some updates to create better experience.</p>					
 		</section>
-		<a class="project_img" href="../img/sudo/sudo_company_index.png" data-fancybox data-caption="My caption">
-			<img src="../img/sudo/sudo_company_index.png" alt="img4">
-		</a>
 		<section>
-			<h3>Company Index</h3>
-			<p>公司列表呈現公司的團隊相片，除此之外更強調公司的融資狀態、公司人數與公司產業類別。公司列表未開發較完整的搜尋功能，僅能以關鍵字搜尋公司。</p>
+			<h3>Profile Edit and Profile Show Page</h3>
+			<p>After receiving lots of feedback from users, we decided to combine Edit page and show page. Job seekers will see their resume immediately after editing.</p>
+			<a class="project_img" href="../img/sudo/stage_3/s3_Sudo_1.png" data-fancybox data-caption="We combined edit and show page, let the job seekers see their resume after editing.">
+				<img src="../img/sudo/stage_3/s3_Sudo_1.png" alt="profile_edit_v2">
+			</a>			
 		</section>
-		<a class="project_img" href="../img/sudo/sudo_component.png" data-fancybox data-caption="My caption">
-			<img src="../img/sudo/sudo_component.png" alt="img4">
-		</a>
 		<section>
-			<h3>Components and Mail template</h3>
-			<p>由於 Sudo Recruit 為人才媒合的服務，需要寄送頻繁的的系統通知信件。<br />我們使用 Ruby On Rails 串 Mailgun 寄信並使用 MJML framework 撰寫 Email 模板。</p>
-		</section>				
+			<h3>Company Show and Job Show update</h3>
+			<p>We thought image of company help to describe the environment, culture and so on. Yes, the images do. But the key point that had job seekers make decision is the information about the funding stage, team size etc.</p>
+
+			<p>The survey tells job seekers find jobs in a fast tempo, and the big heavy image cover let the information scatter around the page.<br />New company show page grouped up those information and combined three images into one place(display by carousel).</p>
+			<p>At the bottom of the page, we try something new: discussion feature. We hope job seekers get more information that can’t be seen on the company show page, more deep information about that company or job from people who worked there before.</p>
+			<a class="project_img" href="../img/sudo/stage_3/s3_Sudo_2.png" data-fancybox data-caption="Grouping the information make job seekers explore faster.">
+				<img src="../img/sudo/stage_3/s3_Sudo_2.png" alt="profile_edit_v2">
+			</a>				
+		</section>
+		<section>
+			<h2>Components</h2>
+			<p>Because of the fast retention, the interfaces between versions were quite different. We need to define our components to make our interfaces more consistent.</p>
+			<a class="project_img" href="../img/sudo/stage_3/s3_Sudo_3.png" data-fancybox data-caption="We've changed tag style, because it was too similar to the buttons.">
+				<img src="../img/sudo/stage_3/s3_Sudo_3.png" alt="components">
+			</a>				
+		</section>
 	</div>
-	<div class="project_info">
-		<div class="project_name">
-			<h2>iOS application</h2>
-		</div>
-		<ul class="project_details">
-			<li><span>Framwork:</span> React Native</li>
-			<li><span>UI/UX Design:</span> Sheng Pan</li>
-			<li><span>Developer:</span> Henry Wu</li>
-		</ul>
-	</div>
-	<div class="container">
-		<a class="project_img" href="../img/sudo/sudo_app_signin.png" data-fancybox data-caption="My caption">
-			<img src="../img/sudo/sudo_app_signin.png" alt="img4">
-		</a>
-		<a class="project_img" href="../img/sudo/sudo_app_signup.png" data-fancybox data-caption="My caption">
-			<img src="../img/sudo/sudo_app_signup.png" alt="img4">
-		</a>
-		<a class="project_img" href="../img/sudo/sudo_app_search.png" data-fancybox data-caption="My caption">
-			<img src="../img/sudo/sudo_app_search.png" alt="img4">
-		</a>
-		<a class="project_img" href="../img/sudo/m_sudo_profile.png" data-fancybox data-caption="My caption">
-			<img src="../img/sudo/m_sudo_profile.png" alt="img4">
-		</a>
-		<a class="project_img" href="../img/sudo/m_sudo_job.png" data-fancybox data-caption="My caption">
-			<img src="../img/sudo/m_sudo_job.png" alt="img4">
-		</a>			
-	</div>
+
 	<script type="text/javascript">
 		$("[data-fancybox]").fancybox({
 			// Options will go here

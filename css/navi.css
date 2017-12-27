@@ -2,10 +2,10 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	box-shadow: 0 10px 40px 10px #eaeaea;
+	box-shadow: 0 10px 40px 10px #fff;
 	height: 80px;
 	width: 100%;
-	background-color: #eaeaea;
+	background-color: #fff;
 	z-index: 10;
 }
 

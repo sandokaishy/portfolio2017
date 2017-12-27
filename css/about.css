@@ -25,6 +25,7 @@ a.download_cv {
 	border-radius: 2px;
 	background-color: black;
 	color: #eaeaea;
+	white-space:nowrap;
 	transition: ease-in 0.3s all;
 }
 .download_cv:hover {
@@ -112,7 +113,7 @@ a.download_cv {
 .from, .to {
 	color: #9b9b9b;
 	font-weight: 400;
-	background-color: #eaeaea;
+	background-color: #fff;
 }
 
 .to {

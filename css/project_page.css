@@ -1,9 +1,9 @@
 .container {
 	display: flex;
 	justify-content: center;
-	padding: 0px 56px 72px 56px;
-	margin-left: -56px;
+	padding: 0px 56px 64px 56px;
 	flex-wrap: wrap;
+	background-color: #fff;
 }
 
 .container img {
@@ -11,18 +11,13 @@
 	height: auto;
 }
 
-.project_img {
-	width: 40vw;
+.project_img, iframe {
+	width: 64vw;
 }
 
-section {
-	width: 40vw;
-	display: inline-block;
-}
 
 .project_img, section {
 	margin-bottom: 48px;
-	margin-left: 56px;
 }
 
 .project_img.multi_img {
@@ -38,8 +33,15 @@ section {
 	width: 60%;
 }
 
-section h3 {
-	margin-top: 0;
+section {
+	margin-top: 32px;
+	width: 64vw;
+	display: inline-block;
+}
+
+section h2 {
+	font-family: 'Roboto Slab';
+	margin-top: 32px;
 }
 
 section .description {
@@ -56,88 +58,107 @@ section .description a {
 	text-decoration: none;
 }
 
-#project_title.fixed .project_name h2{
-	background-color: #eaeaea;
-	position: fixed;
-	font-size: 20px;
-	width: auto;
-	top: 0;
-	left: 0;
-	right: 0;
-	padding: 20px 56px;
-	box-shadow: 0 5px 30px 10px #eaeaea;
-	transition: ease-in-out 0.3s all;
-}
-
-#prokect_title.fixed .project_details {
-	display: none;
-}
 
 .project_info {
 	display: flex;
-	padding: 72px 56px 56px 56px;
-	margin-left: -56px;
+	flex-wrap: wrap;
 	justify-content: center;
 }
 
-.project_name {
-	width: 40vw;
+.project_info .project_cover {
+	width: 100vw;
+	height: 350px;
+
+	overflow: hidden;
+	position: fixed;
+
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: -5;
 }
 
-.project_name, .project_details {
-	margin-left: 56px;
+.project_cover img {
+	filter: blur(2px)  brightness(70%);
+	width: 100vw;
 }
 
-.project_name h2 {
+.project_date,.project_name {
+	width: 64vw;
+}
+
+.project_date {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+	padding: 4px 4px 16px 4px;
+}
+
+.project_date i {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.project_name h1 {
+	font-family: 'Roboto';
+	color: #fff;
+	margin-bottom: 20px;
+	margin-top: 10%;
+	/*font-size: 56px;*/
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.project_name p{
+	color: #fff;
 	font-family: 'Roboto Slab';
+	font-size: 20px;
 	margin-top: 0;
-	font-size: 42px;
-	font-weight: 400;
+	margin-bottom: 0px;
+	letter-spacing: 1px;
 }
 
 .project_details {
-	width: 40vw;
+	width: 64vw;
 	padding-left: 0;
 	list-style-type: none;
+	line-height: 1.4;
 }
 
 .project_details li {
+	display: flex;
 	margin-bottom: 4px;
+	font-size: 14px;
 }
 
 .project_details li span {
 	display: inline-block;
-	width: 150px;
+	min-width: 150px;
 	font-weight: 600;
 	margin-right: 16px;
 }
 
+
+
 @media screen and (max-width: 919px) {
 	.container, .project_info {
-		padding: 36px 20px 0 20px;
+		padding: 16px 20px 0 20px;
 		margin-left: 0;
 	}
 
-	#project_title {
-		margin-top: 42px;
-	}
-
-	#project_title h2{
-		font-size: 32px;
+	#project_title h1{
+		font-size: 40px;
 		line-height: 1.2;
 	}
 
-	#project_title.fixed .project_name h2 {
-		padding: 32px 28px;
-	}
-
-	.project_img, section {
+	.project_img,.project_date, section {
 		width: 100%;
 		margin-left: 0;
 	}
 
 	.project_info {
-		flex-direction: column;
 		padding: 20px;
 		margin-left: 0;
 	}
