@@ -58,22 +58,6 @@ section .description a {
 	text-decoration: none;
 }
 
-#project_title.fixed .project_name h1{
-	background-color: #eaeaea;
-	position: fixed;
-	font-size: 20px;
-	width: auto;
-	top: 0;
-	left: 0;
-	right: 0;
-	padding: 20px 56px;
-	box-shadow: 0 5px 30px 10px #eaeaea;
-	transition: ease-in-out 0.3s all;
-}
-
-#prokect_title.fixed .project_details {
-	display: none;
-}
 
 .project_info {
 	display: flex;
@@ -88,13 +72,14 @@ section .description a {
 	overflow: hidden;
 	position: fixed;
 
+	top: 0;
 	left: 0;
 	right: 0;
 	z-index: -5;
 }
 
 .project_cover img {
-	filter: blur(2px)  brightness(80%);
+	filter: blur(2px)  brightness(70%);
 	width: 100vw;
 }
 
@@ -118,9 +103,8 @@ section .description a {
 .project_name h1 {
 	font-family: 'Roboto';
 	color: #fff;
-	margin-top: 0;
 	margin-bottom: 20px;
-	margin-top: 144px;
+	margin-top: 10%;
 	/*font-size: 56px;*/
 	font-weight: 700;
 	text-transform: uppercase;
@@ -160,21 +144,13 @@ section .description a {
 
 @media screen and (max-width: 919px) {
 	.container, .project_info {
-		padding: 36px 20px 0 20px;
+		padding: 16px 20px 0 20px;
 		margin-left: 0;
 	}
 
-	#project_title {
-		margin-top: 42px;
-	}
-
-	#project_title h2{
-		font-size: 32px;
+	#project_title h1{
+		font-size: 40px;
 		line-height: 1.2;
-	}
-
-	#project_title.fixed .project_name h1 {
-		padding: 32px 28px;
 	}
 
 	.project_img,.project_date, section {
