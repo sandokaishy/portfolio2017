@@ -61,7 +61,7 @@
 	position: absolute;
 	left: -45vw;
 	top: 0;
-	background-color: #4a4a4a;
+	background-color: #c4c4c4;
 	transition: ease-in-out 0.8s all;
 }
 
@@ -76,7 +76,8 @@
 		/*transform: translateX(-110%);*/
 		background-image: url(../img/index/index_cover.jpg);
 		background-size: cover;
-		-webkit-filter: grayscale(100%);
+		filter: grayscale(100%) brightness(110%);
+		-webkit-filter: grayscale(100%) brightness(110%);
 		transition: ease-out 0s 0.4s all;
 	}
 
@@ -88,7 +89,8 @@
 		/*transform: translateX(-110%);*/
 		background-image: url(../img/index/index_cover2.png);
 		background-size: cover;
-		-webkit-filter: grayscale(100%);
+		filter: grayscale(100%) brightness(110%);
+		-webkit-filter: grayscale(100%) brightness(110%);
 		transition: ease-out 0s 0.4s all;
 	}
 	.works_cover {
@@ -100,7 +102,7 @@
 	}
 
 	.animate_img.active div {
-		opacity: 1;
+		opacity: 0.8;
 	}	
 }
 

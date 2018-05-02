@@ -1,3 +1,7 @@
 $(function(){
-  $('.container').mixItUp();
+  $('.container').mixItUp({
+  	load: {
+      filter: '.ui'
+    }
+  });
 });
