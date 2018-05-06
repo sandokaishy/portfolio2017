@@ -160,36 +160,45 @@ a.download_cv {
 
 .ability ul li{
 	list-style-type: none;
-	display: flex;
-	justify-content: space-between;
+	/*justify-content: space-between;*/
 }
 
-.ability ul li span {
+.ability ul li p {
 	font-size: 14px;
 	font-weight: 400;
 	color: #4a4a4a;
 	line-height: 1.4;
-	width: 100px;
+	margin-bottom: 24px;
 	flex-grow: 0;
 	flex-shrink: 0;
 }
 
 .abi_item {
+	display: flex;
 	flex: 2;
-	margin-bottom: 40px;
+	margin-bottom: 28px;
+}
+
+.abi_item > li {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 60px;
+	margin-right: 16px;
+}
+
+.abi_item p {
+	text-align: center;
+	font-size: 14px;
 }
 
 .abi_item img {
-	width: 30px;
-	margin-right: 16px;
-	margin-bottom: 16px;
+	height: 36px;
 	vertical-align: middle;
 }
 
 
-.ability ul>li>ul>li {
-	display: inline-block;
-}
 
 @media screen and (max-width: 768px) {
 	.left .profile_img {
