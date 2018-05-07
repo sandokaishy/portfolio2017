@@ -12,9 +12,12 @@
 }
 
 .content h1 {
-	font-size: 80px;
+	font-size: 100px;
 	/*font-family: 'Roboto Slab';*/
-	font-family: 'Montserrat', sans-serif;
+	/*font-family: 'Montserrat', sans-serif;*/
+	/*font-family: 'Crimson Text', serif;*/
+	font-family: 'Montserrat', serif;
+	text-transform: uppercase;
 	font-weight: 700;
 	line-height: 1.1;
 	margin-top: 0;
@@ -27,7 +30,8 @@
 .content ul {
 	list-style-type: none;
 	padding: 0;	
-	font-size: 24px;
+	font-size: 16px;
+	font-family: 'Montserrat', serif;
 }
 
 .content ul li {
@@ -42,22 +46,28 @@
 	font-weight: 600;
 	text-transform: uppercase;
 	text-decoration: none;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 	/*position: relative;*/
 }
 
 .animate_img {
 	overflow: hidden;
-	width: 45vw;
-	height: 30vh;
+	width: 50vw;
+	height: 50vh;
 	position: absolute;
-	/*background-color: yellow;*/
-	right: 10vw;
+	opacity: 1;
+	right: 15vw;
+	bottom: 15vh;
 	z-index: -1;
+	-webkit-transition: all .25s ease-out;
+	   -moz-transition: all .25s ease-out;
+	    -ms-transition: all .25s ease-out;
+	     -o-transition: all .25s ease-out;
+	        transition: all .25s ease-out;
 	/*background-color: red;*/
 }
 
-.about_cover:after, .works_cover:after {
+/*.about_cover:after, .works_cover:after {
 	content:" ";
 	display: block;
 	width: 45vw;
@@ -68,15 +78,15 @@
 	background-color: #c4c4c4;
 	transition: ease-in-out 0.8s all;
 }
-
+*/
 
 
 @media screen and (min-width: 1024px) {
 	.about_cover div {
 		width: 50vw;
-		height: 30vh;
+		height: 60vh;
 		display: block;
-		opacity: 0;
+		opacity: 1;
 		/*transform: translateX(-110%);*/
 		background-image: url(../img/index/index_cover.jpg);
 		background-size: cover;
@@ -85,29 +95,10 @@
 		transition: ease-out 0s 0.4s all;
 	}
 
-	.works_cover div {
-		width: 50vw;
-		height: 30vh;
-		display: block;
-		opacity: 0;
-		/*transform: translateX(-110%);*/
-		background-image: url(../img/index/index_cover2.png);
-		background-size: cover;
-		filter: grayscale(100%) brightness(110%);
-		-webkit-filter: grayscale(100%) brightness(110%);
-		transition: ease-out 0s 0.4s all;
-	}
 	.works_cover {
 		bottom: 20vh;
 	}
 
-	.about_cover.active:after, .works_cover.active:after {
-		left: 45vw;
-	}
-
-	.animate_img.active div {
-		opacity: 0.8;
-	}	
 }
 
 
@@ -121,7 +112,7 @@
 
 @media screen and (max-width: 768px) {
 	.content h1 {
-		font-size: 28px;
+		font-size: 56px;
 		width: 100%;
 	}
 
