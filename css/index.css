@@ -56,8 +56,8 @@
 	height: 50vh;
 	position: absolute;
 	opacity: 1;
-	right: 15vw;
-	bottom: 15vh;
+	right: 12vw;
+	bottom: 20vh;
 	z-index: -1;
 	-webkit-transition: all .25s ease-out;
 	   -moz-transition: all .25s ease-out;

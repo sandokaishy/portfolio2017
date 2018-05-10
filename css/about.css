@@ -105,7 +105,7 @@ a.download_cv {
 	font-size: 14px;
 	color: #4A4A4A;
 }
-.from {
+.to {
 	position: absolute;
 	top: 0;
 	padding-top: 4px;
@@ -118,7 +118,7 @@ a.download_cv {
 	background-color: #fff;
 }
 
-.to {
+.from {
 	padding-top: 12px;
 	position: absolute;
 	bottom: 0;
