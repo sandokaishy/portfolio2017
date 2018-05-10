@@ -15,28 +15,30 @@ section:last-child {
 	margin-bottom: 40px;
 }
 a.download_cv {
-	font-size: 14px;
-	font-family: 'Roboto';
+	font-family: 'Montserrat', serif;
+	font-size: 12px;
 	font-weight: 700;
 	margin-left: 14px;
-	letter-spacing: 0;
+	letter-spacing: 2px;
 	text-decoration: none;
 	padding: 6px 10px;
 	border-radius: 2px;
-	background-color: black;
-	color: #eaeaea;
+	display: inline-block;
+	border: 2px solid black;
+	color: black;
 	white-space:nowrap;
-	transition: ease-in 0.3s all;
+	transition: ease-in 0.2s all;
 }
 .download_cv:hover {
+	color: #f3f3f3;
 	background-color: #3f3f3f;
 }
 
 .section_title {
-	font-family: 'Roboto Slab';
+	font-family: 'Montserrat', serif;
 	font-weight: 700;
 	text-transform: uppercase;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 	margin-top: 0;
 	margin-bottom: 32px;
 }
@@ -49,7 +51,7 @@ a.download_cv {
 }
 
 .left {
-	width: 220px;
+	width: 300px;
 	flex-grow: 0;
 	flex-shrink: 0
 }
@@ -78,14 +80,14 @@ a.download_cv {
 }
 
 .profile_img {
-	width: 220px;
+	width: 300px;
 }
 
 .mega_title {
-	font-size: 32px;
-	font-family: 'Roboto Slab';
-	font-weight: 400;
+	font-size: 36px;
+	text-transform: uppercase;
 	margin-top: 8px;
+	letter-spacing: 2px;
 }
 .right {
 	width: 40vw;
@@ -103,7 +105,7 @@ a.download_cv {
 	font-size: 14px;
 	color: #4A4A4A;
 }
-.from {
+.to {
 	position: absolute;
 	top: 0;
 	padding-top: 4px;
@@ -116,7 +118,7 @@ a.download_cv {
 	background-color: #fff;
 }
 
-.to {
+.from {
 	padding-top: 12px;
 	position: absolute;
 	bottom: 0;
@@ -160,36 +162,45 @@ a.download_cv {
 
 .ability ul li{
 	list-style-type: none;
-	display: flex;
-	justify-content: space-between;
+	/*justify-content: space-between;*/
 }
 
-.ability ul li span {
+.ability ul li p {
 	font-size: 14px;
 	font-weight: 400;
 	color: #4a4a4a;
 	line-height: 1.4;
-	width: 100px;
+	margin-bottom: 24px;
 	flex-grow: 0;
 	flex-shrink: 0;
 }
 
 .abi_item {
+	display: flex;
 	flex: 2;
-	margin-bottom: 40px;
+	margin-bottom: 28px;
+}
+
+.abi_item > li {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 60px;
+	margin-right: 16px;
+}
+
+.abi_item p {
+	text-align: center;
+	font-size: 14px;
 }
 
 .abi_item img {
-	width: 30px;
-	margin-right: 16px;
-	margin-bottom: 16px;
+	height: 36px;
 	vertical-align: middle;
 }
 
 
-.ability ul>li>ul>li {
-	display: inline-block;
-}
 
 @media screen and (max-width: 768px) {
 	.left .profile_img {

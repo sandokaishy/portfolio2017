@@ -12,6 +12,8 @@
 .navigation ul {
 	padding-left: 0;
 	padding-top: 8px;
+	font-size: 14px;
+	font-family: 'Montserrat', serif;
 }
 
 .navigation ul li {
@@ -26,10 +28,12 @@
 
 .navigation a {
 	text-decoration: none;
+	letter-spacing: 2px;
 }
 
 .navigation li {
 	margin-right: 24px;
+	text-transform: uppercase;
 }
 
 .navigation li.active{
@@ -42,8 +46,9 @@
 
 
 .logo {
-	font-family: 'Roboto Slab';
-	font-size: 20px;
+	font-family: 'Montserrat', serif;
+	text-transform: uppercase;
+	font-size: 16px;
 	font-weight: 700;
 }
 
