@@ -24,6 +24,7 @@
 	margin-bottom: 48px;
 	width: 60%;
 	position: relative;
+	z-index: 3;
 }
 
 
@@ -58,7 +59,7 @@
 	opacity: 1;
 	right: 12vw;
 	bottom: 20vh;
-	z-index: -1;
+	z-index: 2;
 	-webkit-transition: all .25s ease-out;
 	   -moz-transition: all .25s ease-out;
 	    -ms-transition: all .25s ease-out;
@@ -86,12 +87,12 @@
 		width: 50vw;
 		height: 60vh;
 		display: block;
-		opacity: 1;
+		opacity: 0.7;
 		/*transform: translateX(-110%);*/
 		background-image: url(../img/index/index_cover.jpg);
 		background-size: cover;
-		filter: grayscale(100%) brightness(110%);
-		-webkit-filter: grayscale(100%) brightness(110%);
+		filter: grayscale(100%) brightness(95%) contrast(2);
+		-webkit-filter: grayscale(100%) brightness(95%) contrast(2);
 		transition: ease-out 0s 0.4s all;
 	}
 

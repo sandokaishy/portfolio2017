@@ -3,7 +3,6 @@
 	justify-content: center;
 	padding: 0px 56px 64px 56px;
 	flex-wrap: wrap;
-	background-color: #fff;
 }
 
 .container img {
@@ -60,85 +59,53 @@ section .description a {
 
 
 .project_info {
+	position: relative;
 	display: flex;
-	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
 	justify-content: center;
-}
-
-.project_info .project_cover {
-	width: 100vw;
-	height: 350px;
-
+	height: 35vw;
 	overflow: hidden;
-	position: fixed;
-
-	top: 0;
-	left: 0;
-	right: 0;
-	z-index: -5;
 }
 
-.project_cover img {
-	filter: blur(2px)  brightness(70%);
+.project_cover {
 	width: 100vw;
+	height: auto;
+	opacity: 0.7;
+	position: absolute;
+	filter: grayscale(100%) brightness(95%) contrast(2);
+	-webkit-filter: grayscale(100%) brightness(95%) contrast(2);
+	z-index: 3;
 }
 
-.project_date,.project_name {
-	width: 64vw;
-}
 
-.project_date {
-	display: flex;
-	justify-content: space-between;
-	margin-bottom: 40px;
-	padding: 4px 4px 16px 4px;
-}
-
-.project_date i {
-	color: #fff;
-	font-size: 16px;
-	font-weight: 600;
-}
 
 .project_name h1 {
-	font-family: 'Roboto';
-	color: #fff;
-	margin-bottom: 20px;
-	margin-top: 10%;
-	/*font-size: 56px;*/
+	z-index: 4;
+	font-size: 64px;
 	font-weight: 700;
+	line-height: 1.1;
+	margin-top: 20px;
+	margin-bottom: 12px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
 
-.project_name p{
-	color: #fff;
-	font-family: 'Roboto Slab';
+.project_name {
 	font-size: 20px;
-	margin-top: 0;
-	margin-bottom: 0px;
 	letter-spacing: 1px;
+	position: absolute;
+	z-index: 4;
+	top: 0;
+	padding: 12px 120px 24px 24px;
+	background-color: #D2D0CD;
 }
 
-.project_details {
-	width: 64vw;
-	padding-left: 0;
-	list-style-type: none;
-	line-height: 1.4;
+.project_name p {
+	margin: 0;
 }
 
-.project_details li {
-	display: flex;
-	margin-bottom: 4px;
-	font-size: 14px;
-}
 
-.project_details li span {
-	display: inline-block;
-	min-width: 150px;
-	font-weight: 600;
-	margin-right: 16px;
-}
 
 
 

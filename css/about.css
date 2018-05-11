@@ -81,6 +81,9 @@ a.download_cv {
 
 .profile_img {
 	width: 300px;
+	opacity: 0.75;
+	filter: grayscale(100%) brightness(95%) contrast(1.5);
+	-webkit-filter: grayscale(100%) brightness(95%) contrast(1.5);	
 }
 
 .mega_title {
@@ -115,7 +118,8 @@ a.download_cv {
 .from, .to {
 	color: #9b9b9b;
 	font-weight: 400;
-	background-color: #fff;
+	background-color: #D2D0CD;
+	z-index: 2;
 }
 
 .from {
@@ -132,7 +136,7 @@ a.download_cv {
 	background-color: #9B9B9B;
 	position: absolute;
 	left: 20px;
-	z-index: -2;
+	z-index: 1;
 
 }
 
@@ -166,7 +170,7 @@ a.download_cv {
 }
 
 .ability ul li p {
-	font-size: 14px;
+	font-size: 12px;
 	font-weight: 400;
 	color: #4a4a4a;
 	line-height: 1.4;
