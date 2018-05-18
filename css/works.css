@@ -11,7 +11,7 @@
 	font-size: 14px;
 	font-family: 'Montserrat',serif;
 	text-transform: uppercase;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	list-style-type: none;
 	display: inline-block;
 	margin-right: 32px;
@@ -55,14 +55,14 @@ a.project_item {
 
 .project_item h3 {
 	font-size: 20px;
-	font-weight: 400;
-	padding: 24px;
+	font-weight: 700;
+	padding: 12px;
 	color: white;
 	margin: 0;
 	z-index: 2;
 	text-align: center;
 	text-decoration: none;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 }
 
 .project_item.mix {
@@ -72,6 +72,7 @@ a.project_item {
 .project_item img {
 	height: 100%;
 	-webkit-filter: grayscale(100%);
+	transform: scale(1.2);
 	transition: ease-out 0.3s all;
 }
 
@@ -86,7 +87,7 @@ a.project_item {
 	left: 0;
 	bottom: -96px;
 	opacity: 0;
-	transition: ease-in 0.2s all;
+	transition: ease-out 0.2s all;
 }
 
 
@@ -96,10 +97,8 @@ a.project_item {
 }
 @media screen and (min-width: 1201px) {
 
-
-
 	.project_item:hover img {
-		transform: scale(1.2);
+		transform: scale(1.1);
 		-webkit-filter: none;
 	/*	animation: project_img 30s infinite;*/
 	}
@@ -112,7 +111,7 @@ a.project_item {
 	}	
 
 	.project_item:hover img {
-		transform: scale(1.5);
+		transform: scale(1.1);
 		-webkit-filter: none;
 	/*	animation: project_img 30s infinite;*/
 	}
@@ -168,7 +167,7 @@ a.project_item {
 	.project_item img {
 		width: 100%;
 		height: auto;
-		transform: scale(1.6);
+		transform: scale(1.1);
 	}
 	.description {
 		background-color: rgba(0,0,0,0.4);

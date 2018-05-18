@@ -33,9 +33,10 @@
 }
 
 section {
+	display: flex;
+	flex-direction: row;
 	margin-top: 32px;
-	width: 64vw;
-	display: inline-block;
+	width: 80vw;
 }
 
 section h2 {
@@ -44,6 +45,8 @@ section h2 {
 }
 
 section .description {
+	width: 45%;
+	margin-left: 40px;
 	margin-bottom: 40px;
 }
 
@@ -64,7 +67,8 @@ section .description a {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	height: 35vw;
+	height: 28vw;
+	margin-bottom: 48px;
 	overflow: hidden;
 }
 
@@ -72,9 +76,8 @@ section .description a {
 	width: 100vw;
 	height: auto;
 	opacity: 0.7;
-	position: absolute;
-	filter: grayscale(100%) brightness(95%) contrast(2);
-	-webkit-filter: grayscale(100%) brightness(95%) contrast(2);
+	filter: grayscale(100%) brightness(95%) contrast(2) blur(8px);
+	-webkit-filter: grayscale(100%) brightness(95%) contrast(2) blur(8px);
 	z-index: 3;
 }
 
@@ -89,19 +92,25 @@ section .description a {
 	margin-bottom: 12px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
+	color: #D2D0CD;
 }
 
 .project_name {
+	color: #D2D0CD;
 	font-size: 20px;
 	letter-spacing: 1px;
 	position: absolute;
 	z-index: 4;
 	top: 0;
+	left: 10vw;
+	width: 70vw;
 	padding: 12px 120px 24px 24px;
-	background-color: #D2D0CD;
+	/*background-color: #D2D0CD;*/
+	background-color: #222;
 }
 
 .project_name p {
+	color: #D2D0CD;
 	margin: 0;
 }
 

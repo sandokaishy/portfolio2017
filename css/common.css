@@ -1,5 +1,5 @@
 body, html {
-	height: 100vh;
+	min-height: 100vh;
 	margin: 0;
 	/*background-color: #C1C0BE;*/
 	background-color: #D2D0CD;
