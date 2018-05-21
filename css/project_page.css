@@ -101,9 +101,8 @@ section .description a {
 	letter-spacing: 1px;
 	position: absolute;
 	z-index: 4;
-	top: 0;
+	bottom: 0;
 	left: 10vw;
-	width: 70vw;
 	padding: 12px 120px 24px 24px;
 	/*background-color: #D2D0CD;*/
 	background-color: #222;
@@ -123,6 +122,13 @@ section .description a {
 		padding: 16px 20px 0 20px;
 		margin-left: 0;
 	}
+	.project_info {
+		height: 350px;
+	}
+
+	.project_name {
+		left: 0;
+	}
 
 	#project_title h1{
 		font-size: 40px;
@@ -134,27 +140,29 @@ section .description a {
 		margin-left: 0;
 	}
 
-	.project_info {
-		padding: 20px;
-		margin-left: 0;
+	.project_img {
+		margin-bottom: 8px;
 	}
+
 
 	.project_info img {
-		width: auto;
-		height: 350px;
-	}
-
-	.project_details {
-		padding-bottom: 20px;
-		border-bottom: 4px solid #3b3b3b;
-	}
-	.project_name, .project_details {
-		width: 100%;
-		margin-left: 0;
+		width: 100vw;
+		height: auto;
 	}
 
 	section {
-		margin-top: -24px;
-		margin-bottom: 56px;
+		flex-direction: column;
+		margin-bottom: 48px;
+	}
+	section .description {
+		width: auto;
+		background-color: white;
+		margin: 0;
+		padding: 20px 40px;
+		box-shadow: 0px -5px 30px 0px rgba(0,0,0,0.1);
+	}
+
+	section .description h3 {
+		text-transform: uppercase;
 	}
 }
