@@ -87,6 +87,7 @@ section .about.description {
 }
 
 .project_cover {
+	position: absolute;
 	width: 100vw;
 	height: auto;
 	opacity: 0.7;
