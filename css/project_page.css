@@ -32,6 +32,10 @@
 	width: 60%;
 }
 
+video {
+	width: 45%;
+}
+
 section {
 	display: flex;
 	flex-direction: row;
