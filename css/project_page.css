@@ -78,6 +78,14 @@ section .about.description {
 	width: 100%;
 }
 
+.description li {
+	/*list-style-type: none;*/
+	margin-bottom: 12px;
+}
+
+.description ul {
+	padding-left: 16px;
+}
 
 .project_info {
 	position: relative;
