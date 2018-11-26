@@ -18,10 +18,10 @@ a.download_cv {
 	font-family: 'Montserrat', serif;
 	font-size: 12px;
 	font-weight: 700;
-	margin-left: 14px;
-	letter-spacing: 2px;
+	margin-top: 16px;
+	letter-spacing: 1px;
 	text-decoration: none;
-	padding: 6px 10px;
+	padding: 6px 12px;
 	border-radius: 2px;
 	display: inline-block;
 	border: 2px solid black;
@@ -118,7 +118,7 @@ a.download_cv {
 .from, .to {
 	color: #9b9b9b;
 	font-weight: 400;
-	background-color: #D2D0CD;
+	background-color: #F5F5F5;
 	z-index: 2;
 }
 
@@ -174,7 +174,7 @@ a.download_cv {
 	font-weight: 400;
 	color: #4a4a4a;
 	line-height: 1.4;
-	margin-bottom: 24px;
+	margin-bottom: 20px;
 	flex-grow: 0;
 	flex-shrink: 0;
 }
@@ -191,7 +191,7 @@ a.download_cv {
 	justify-content: center;
 	align-items: center;
 	width: 60px;
-	margin-right: 16px;
+	margin-right: 12px;
 }
 
 .abi_item p {

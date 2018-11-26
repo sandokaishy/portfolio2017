@@ -47,7 +47,7 @@
 	font-weight: 600;
 	text-transform: uppercase;
 	text-decoration: none;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	/*position: relative;*/
 }
 
@@ -58,7 +58,7 @@
 	position: absolute;
 	opacity: 1;
 	right: 12vw;
-	bottom: 20vh;
+	top: 10vh;
 	z-index: 2;
 	-webkit-transition: all .25s ease-out;
 	   -moz-transition: all .25s ease-out;
