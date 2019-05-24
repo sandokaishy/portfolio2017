@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "dsm";
+  src: url('../fonts/dsm.eot');
+  src: url('../fonts/dsm.eot?#iefix') format('eot'),
+    url('../fonts/dsm.woff2') format('woff2'),
+    url('../fonts/dsm.woff') format('woff'),
+    url('../fonts/dsm.ttf') format('truetype'),
+    url('../fonts/dsm.svg#dsm') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.dsm-icon:before {
+  display: inline-block;
+  font-family: "dsm";
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.dsm-icon-lg {
+  font-size: 1.3333333333333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.dsm-icon-2x { font-size: 2em; }
+.dsm-icon-3x { font-size: 3em; }
+.dsm-icon-4x { font-size: 4em; }
+.dsm-icon-5x { font-size: 5em; }
+.dsm-icon-fw {
+  width: 1.2857142857142858em;
+  text-align: center;
+}
+
+.dsm-icon-icon_url_verify:before { content: "\EA01" }
+.dsm-icon-icon_feedback:before { content: "\EA02" }
+.dsm-icon-icon_common_linkurl:before { content: "\EA03" }
+.dsm-icon-icon_common_backhome:before { content: "\EA04" }
+.dsm-icon-scale_up:before { content: "\EA05" }
+.dsm-icon-icon_common_search:before { content: "\EA06" }
+.dsm-icon-icon_common_edit:before { content: "\EA07" }
+.dsm-icon-icon_function_change:before { content: "\EA08" }
+.dsm-icon-icon_common_alert:before { content: "\EA09" }
+.dsm-icon-icon_common_fav:before { content: "\EA0A" }
+.dsm-icon-icon_function_save:before { content: "\EA0B" }
+.dsm-icon-icon_funtion_publish:before { content: "\EA0C" }
+.dsm-icon-icon_common_delete:before { content: "\EA0D" }
+.dsm-icon-common_close:before { content: "\EA0E" }
+.dsm-icon-icon_dropndrap:before { content: "\EA0F" }
+.dsm-icon-icon_common_grid:before { content: "\EA10" }
+.dsm-icon-icon_moreAction:before { content: "\EA11" }
+.dsm-icon-icon_account:before { content: "\EA12" }
+.dsm-icon-icon_cart:before { content: "\EA13" }
+.dsm-icon-icon_home:before { content: "\EA14" }
+.dsm-icon-icon_hamburger:before { content: "\EA15" }
+.dsm-icon-icon_quick_ig:before { content: "\EA16" }
+.dsm-icon-icon_image:before { content: "\EA17" }
+.dsm-icon-icon_gif:before { content: "\EA18" }
+.dsm-icon-icon_side_shop:before { content: "\EA19" }
+.dsm-icon-icon_side_coupon:before { content: "\EA1A" }
+.dsm-icon-icon_common_top_tiny:before { content: "\EA1B" }
+.dsm-icon-icon_common_right_tiny:before { content: "\EA1C" }
+.dsm-icon-icon_common_down_tiny:before { content: "\EA1D" }
+.dsm-icon-icon_common_left_tiny:before { content: "\EA1E" }
+.dsm-icon-icon_common_top:before { content: "\EA1F" }
+.dsm-icon-icon_common_to:before { content: "\EA20" }
+.dsm-icon-icon_common_down:before { content: "\EA21" }
+.dsm-icon-icon_common_back:before { content: "\EA22" }
+.dsm-icon-icon_device_mobile:before { content: "\EA23" }
+.dsm-icon-icon_device_desktop:before { content: "\EA24" }
+.dsm-icon-icon_waterfall_more:before { content: "\EA25" }
+.dsm-icon-icon_common_select:before { content: "\EA26" }
+.dsm-icon-icon_common_bubble:before { content: "\EA27" }
+.dsm-icon-icon_common_alert_solid:before { content: "\EA28" }
+.dsm-icon-icon_warning:before { content: "\EA29" }
+.dsm-icon-icon_common_fav_active:before { content: "\EA2A" }
+.dsm-icon-icon_account_solid:before { content: "\EA2B" }
+.dsm-icon-icon_notice:before { content: "\EA2C" }
+.dsm-icon-icon_search_solid:before { content: "\EA2D" }
+.dsm-icon-icon_home_solid:before { content: "\EA2E" }
+.dsm-icon-icon_cart_solid:before { content: "\EA2F" }
+.dsm-icon-icon_location:before { content: "\EA30" }
+.dsm-icon-icon_listview:before { content: "\EA31" }
+.dsm-icon-icon_notice_ouline:before { content: "\EA32" }
+.dsm-icon-icon_schedule:before { content: "\EA33" }
+.dsm-icon-icon_plus:before { content: "\EA34" }
+.dsm-icon-icon_minus:before { content: "\EA35" }
+.dsm-icon-icon_location_o:before { content: "\EA36" }
+.dsm-icon-icon_quick_ig_solid:before { content: "\EA37" }
+.dsm-icon-icon_cashondelivery:before { content: "\EA38" }
+.dsm-icon-icon_0rate:before { content: "\EA39" }
+.dsm-icon-icon_atm:before { content: "\EA3A" }
+.dsm-icon-icon_creditcard:before { content: "\EA3B" }
+.dsm-icon-icon_delivery:before { content: "\EA3C" }
+.dsm-icon-icon_info:before { content: "\EA3D" }
+.dsm-icon-icon_info_outline:before { content: "\EA3E" }
+.dsm-icon-icon_overseas:before { content: "\EA3F" }
+.dsm-icon-icon_store:before { content: "\EA40" }
+.dsm-icon-icon_creditdouble:before { content: "\EA41" }
+.dsm-icon-icon_copy:before { content: "\EA42" }
+.dsm-icon-icon_linepay:before { content: "\EA43" }
+.dsm-icon-icon_preview:before { content: "\EA44" }
+.dsm-icon-icon_lock:before { content: "\EA45" }
+.dsm-icon-icon_notice_solid:before { content: "\EA46" }
+.dsm-icon-:before { content: "\EA47" }
+.dsm-icon-:before { content: "\EA48" }
