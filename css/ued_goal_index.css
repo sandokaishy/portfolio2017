@@ -20,7 +20,7 @@ body {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	display: inline-block;
-	animation: ued_logo 5s infinite;
+	animation: ued_logo 10s infinite;
 }
 
 .header {
@@ -102,6 +102,48 @@ body {
 
 .menu .menu__link:hover {
 	opacity: 1;
+}
+
+.team:hover:after {
+	text-transform: lowercase;
+	position: absolute;
+	right: 10vw;
+	top: 50vh;
+	display: block;
+	width: 100%;
+	content:'who we are.';
+	font-family: 'Circular';
+	font-size: 40px;
+	color: #DBDBDB;
+	z-index: 999;
+}
+
+.projects:hover:after {
+	text-transform: lowercase;
+	position: absolute;
+	right: 5vw;
+	top: 50vh;
+	display: block;
+	width: 100%;
+	content:'what we did.';
+	font-family: 'Circular';
+	font-size: 40px;
+	color: #DBDBDB;
+	z-index: 999;
+}
+
+.methods:hover:after {
+	text-transform: lowercase;
+	position: absolute;
+	right: 0;
+	top: 50vh;
+	display: block;
+	width: 100%;
+	content:'what we provide.';
+	font-family: 'Circular';
+	font-size: 40px;
+	color: #DBDBDB;
+	z-index: 999;
 }
 
 footer {
