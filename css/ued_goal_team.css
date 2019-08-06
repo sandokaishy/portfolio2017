@@ -1,0 +1,61 @@
+
+.menu_left {
+	width: 20vw;
+	height: calc(90vh - 140px);
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: column;
+	position: fixed;
+}
+
+.menu_left a {
+	color: white;
+	text-decoration: none;
+	margin-bottom: 12px;
+	display: block;
+	opacity: 0.3;
+	transition: all ease-in 0.3s;
+}
+
+.menu_left a:hover {
+	opacity: 1;
+}
+
+.team_sec {
+	position: relative;
+	width: 60vw;
+	margin-left: 20vw;
+}
+
+.team_hero {
+	height: 50vh;
+}
+.team_intro {
+	position: absolute;
+	top: 0;
+	z-index: 999;
+	width: 20vw
+}
+
+.team_intro h1{
+	font-size: 50px;
+	text-align: right;
+	color: white;
+	text-transform: uppercase;
+
+}
+
+.team_intro p {
+	font-size: 16px;
+	line-height: 1.4;
+	font-weight: 300;
+	color: white;
+	opacity: 0.7;
+}
+
+.team_hero img {
+	position: absolute;
+	right: 0;
+	width: 50vw;
+	filter: saturate(0) brightness(40%);
+}
