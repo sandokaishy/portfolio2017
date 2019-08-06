@@ -117,7 +117,7 @@ body {
 	text-transform: lowercase;
 	position: absolute;
 	right: 10vw;
-	top: 50vh;
+	top: 55vh;
 	display: block;
 	width: 100%;
 	content:'who we are.';
@@ -131,7 +131,7 @@ body {
 	text-transform: lowercase;
 	position: absolute;
 	right: 5vw;
-	top: 50vh;
+	top: 55vh;
 	display: block;
 	width: 100%;
 	content:'what we did.';
@@ -145,7 +145,7 @@ body {
 	text-transform: lowercase;
 	position: absolute;
 	right: 0;
-	top: 50vh;
+	top: 55vh;
 	display: block;
 	width: 100%;
 	content:'what we provide.';

@@ -8,6 +8,13 @@
 	position: fixed;
 }
 
+
+.team_members li {
+	display: flex;
+}
+
+.member_thumbnail
+
 .menu_left a {
 	color: white;
 	text-decoration: none;
