@@ -91,19 +91,18 @@ body {
 .menu .menu__link {
 	font-size: 72px;
 	font-weight: 900;
-	color: white;
+	color: #4C4C4C;
 	text-transform: uppercase;
 
 	display: block;
 	text-decoration: none;
-	opacity: .3;
 
 	transition: all ease-in 0.2s;
 
 }
 
 .menu .menu__link:hover {
-	opacity: 1;
+	color: white;
 }
 
 .team:hover:after {
