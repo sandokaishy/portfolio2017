@@ -15,7 +15,6 @@ section:last-child {
 	margin-bottom: 40px;
 }
 a.download_cv {
-	font-family: 'Montserrat', serif;
 	font-size: 12px;
 	font-weight: 700;
 	margin-top: 16px;
@@ -35,7 +34,6 @@ a.download_cv {
 }
 
 .section_title {
-	font-family: 'Montserrat', serif;
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 2px;

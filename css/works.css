@@ -1,25 +1,30 @@
 
-.filter_container {
-	padding: 36px 56px 0px 56px;
+.content {
+	padding-left: 5vw;
+	padding-right: 5vw;
 }
 
-.filter_container p {
-	font-size: 12px;
+.filter_container {
+	position: fixed;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 10;
+	width: 400px;
 }
 
 .filter_container li {
 	font-size: 14px;
-	font-family: 'Montserrat',serif;
 	text-transform: uppercase;
-	letter-spacing: 1px;
 	list-style-type: none;
-	display: inline-block;
 	margin-right: 32px;
-	margin-bottom: 20px;
 }
 
-.filter_container li a {
-	padding: 6px 10px;
+.filter_container li h2 {
+	cursor: pointer;
+	margin-bottom: 20px;
+	line-height: 1;
+	letter-spacing: 2px;
+	display: inline-block;
 	text-decoration: none;
 }
 
@@ -28,23 +33,29 @@
 }
 
 .filter.active {
-	background-color: #3b3b3b;
-	color: #eaeaea;
-	border-radius: 2px;
+	color: #C74F46;
+	border-bottom: #C74F46 4px solid;
 }
 
 .container {
 	display: flex;
+	width: calc(80vw - 400px);
+	margin-left: 400px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 0;
 	flex-wrap:wrap;
-	align-items: flex-start;
+	flex-direction: row;
+	/*align-content: center;*/
+	align-content: stretch;
+	transition: all 0.2s ease-in;
 	/*justify-content: center;*/
-	padding: 28px 56px 64px 56px;
 }
 .project_item {
 	overflow: hidden;
-	width: 30%;
-	height: 20vw;
-	margin: 0 3vw 3vw 0;
+	width: calc((80vw - 480px)/3);
+	height: 15vw;
 	position: relative;
 	text-decoration: none;
 }
@@ -71,34 +82,38 @@ a.project_item {
 
 .project_item img {
 	height: 100%;
-	-webkit-filter: grayscale(100%);
-	transform: scale(1.2);
 	transition: ease-out 0.3s all;
+	z-index: 3;
 }
 
 .description {
-	background-color: #3b3b3b;
+	background-color: rgba(0, 0, 0, 0);
 	text-transform: uppercase;
-	z-index: 1;
-	width: 100%;
+	z-index: 5;
+	display: flex;
 	position: absolute;
+	align-items: center;
+	justify-content: center;
+	top: 0;
+	bottom: 0;
 	right: 0;
 	left: 0;
-	bottom: -96px;
 	opacity: 0;
-	transition: ease-out 0.2s all;
+	transition: ease-out 0.5s all;
 }
+
 
 
 .project_item:hover .description {
-	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.5);
 	opacity: 1;
 }
+
 @media screen and (min-width: 1201px) {
 
 	.project_item:hover img {
-		transform: scale(1.1);
-		-webkit-filter: none;
+		-webkit-filter: grayscale(100%);
+		transform: scale(1.2);
 	/*	animation: project_img 30s infinite;*/
 	}
 

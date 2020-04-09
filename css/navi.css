@@ -13,7 +13,8 @@
 .navigation ul {
 	padding-left: 0;
 	font-size: 14px;
-	font-family: 'Montserrat', serif;
+	font-weight: 500;
+	font-family: 'Roboto Slab', serif;
 }
 
 .navigation ul li {
@@ -24,16 +25,16 @@
 .navigation .logo {
 	margin-left: 56px;
 	text-decoration: none;
+	letter-spacing: 2px;
 }
 
 .navigation a {
 	text-decoration: none;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 }
 
 .navigation li {
 	margin-right: 24px;
-	text-transform: uppercase;
 }
 
 .navigation li.active{
@@ -46,11 +47,11 @@
 
 
 .logo {
-	font-family: 'Montserrat', serif;
+	font-family: 'Red Hat Display', serif;
 	text-transform: uppercase;
 	font-size: 16px;
 	line-height: 16px;
-	font-weight: 700;
+	font-weight: 900;
 }
 
 .footer {
