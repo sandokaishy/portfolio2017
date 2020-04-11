@@ -40,28 +40,28 @@ p {
 
 /*16px*/
 h5 {
-	font-size: 1rem;
+	font-size: 0.5vw;
 	font-weight: 400;
 }
 
 
 /*18px*/
 h4 {
-	font-size: 1.125rem;
+	font-size: 0.75vw;
 	font-weight: 400;
 }
 
 
 /*24px*/
 h3 {
-	font-size: 1.5rem;
+	font-size: 1.125vw;
 	font-weight: 700;
 	letter-spacing: 1px;	
 }
 
 /*36px*/
 h2 {
-	font-size: 1.75rem;
+	font-size: 1.25vw;
 	font-weight: 700;
 	line-height: 1.75;
 }
@@ -69,7 +69,7 @@ h2 {
 /*42px*/
 h1 {
 	/*font-size: 2.625rem;*/
-	font-size: 3.5rem;
+	font-size: 3.5vw;
 	font-weight: 700;
 	letter-spacing: 1px;
 }
