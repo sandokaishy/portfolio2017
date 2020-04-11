@@ -21,19 +21,24 @@
 }
 
 .filter_container li {
-	font-size: 14px;
 	/*text-transform: uppercase;*/
 	list-style-type: none;
-	margin-right: 32px;
+	margin-right: 20px;
 }
 
-.filter_container li h2 {
+.filter_container li h3 {
 	cursor: pointer;
 	margin-bottom: 20px;
 	line-height: 1;
 	/*letter-spacing: 2px;*/
 	display: inline-block;
 	text-decoration: none;
+	transition: all 0.2s ease-in;
+}
+
+
+.filter_container li:hover h3{
+	color: #C74F46;
 }
 
 .filter_container ul {
@@ -158,10 +163,11 @@ a.project_item {
 
 @media screen and (max-width: 768px) {
 	h1 {
-		font-size: 4.5vw;
+		font-size: 7vw;
 	}
 
-	h2 {
+
+	h3 {
 		font-size: 3vw;
 	}
 	.content {

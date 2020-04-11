@@ -1,16 +1,17 @@
 /*@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:300,400,700');*/
 /*@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700');*/
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;900&family=Roboto+Slab:wght@300;600&display=swap');
-
+/*@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;900&family=Roboto+Slab:wght@300;600&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;900&family=Roboto+Slab:wght@400;600&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;900&family=Roboto:wght@400;500&display=swap');
 html {
 	/*font-family: 'Montserrat', sans-serif;*/
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Roboto', serif;
 	background-color: #fff;
 	font-weight: 400;
 }
 
 a,p,span,h1,h2,h3,h4,h5 {
-	color: #222;
+	color: #333;
 }
 
 h1,h2,h3,h4,h5 {
@@ -32,37 +33,37 @@ ul, li {
 }
 
 p {
-	font-size: 1rem;
-	font-weight: 300;
+	font-size: 1.15rem;
+	font-weight: 400;
 	line-height: 1.6;
 }
 
 
 /*16px*/
 h5 {
-	font-size: 0.5vw;
+	font-size: 0.75vw;
 	font-weight: 400;
 }
 
 
 /*18px*/
 h4 {
-	font-size: 0.75vw;
-	font-weight: 400;
+	font-size: 0.9vw;
+	font-weight: 900;
 }
 
 
 /*24px*/
 h3 {
-	font-size: 1.125vw;
-	font-weight: 700;
+	font-size: 1.25vw;
+	font-weight: 900;
 	letter-spacing: 1px;	
 }
 
 /*36px*/
 h2 {
-	font-size: 1.25vw;
-	font-weight: 700;
+	font-size: 1.75vw;
+	font-weight: 900;
 	line-height: 1.75;
 }
 
@@ -70,6 +71,7 @@ h2 {
 h1 {
 	/*font-size: 2.625rem;*/
 	font-size: 3.5vw;
-	font-weight: 700;
+	font-weight: 900;
 	letter-spacing: 1px;
+	margin-bottom: 2vw;
 }

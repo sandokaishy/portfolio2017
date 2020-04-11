@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="64px" height="61px" viewBox="0 0 64 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
-    <title>Group</title>
+<svg width="64px" height="59px" viewBox="0 0 64 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Group Copy</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard-Copy-5" transform="translate(-716.000000, -2175.000000)" stroke="#000000">
-            <g id="Group" transform="translate(716.000000, 2175.000000)">
-                <path d="M13.8936688,4.37747735 L1.86480911,22.8834153 L32,58.5705952 L62.1351909,22.8834153 L50.1063312,4.37747735 L32,1.51858295 L13.8936688,4.37747735 Z" id="Rectangle-15" stroke-width="3"></path>
-                <path d="M2,22 L60,22" id="Line-3" stroke-width="3"></path>
-                <polyline id="Path-8" stroke-width="2" points="32.1083659 2 13 21.937574 32.1083659 57.8993821"></polyline>
-                <polyline id="Path-8" stroke-width="2" transform="translate(41.554183, 29.949691) scale(-1, 1) translate(-41.554183, -29.949691) " points="51.1083659 2 32 21.937574 51.1083659 57.8993821"></polyline>
-                <path d="M13,5 L12,21" id="Line-4" stroke-width="2"></path>
-                <path d="M50,5 L51,21" id="Line-4-Copy" stroke-width="2"></path>
+        <g id="Artboard-Copy-5" transform="translate(-311.000000, -2175.000000)" fill="#000000">
+            <g id="Group-Copy" transform="translate(311.000000, 2175.000000)">
+                <path d="M63.577,23.499191 L33.959,58.574191 L51.163,23.499191 L63.577,23.499191 Z M48.935,23.499191 L31.908,58.214191 L14.88,23.499191 L48.935,23.499191 Z M12.652,23.499191 L29.602,58.056191 L0.422,23.499191 L12.652,23.499191 Z M11.876,4.72619098 L11.025,20.499191 L1.625,20.499191 L11.876,4.72619098 Z M31.907,1.75219098 L48.237,20.499191 L15.578,20.499191 L31.907,1.75219098 Z M51.032,3.05019098 L62.374,20.499191 L51.974,20.499191 L51.032,3.05019098 Z M30.589,0.223190981 L13.035,20.374191 L13.981,2.84419098 L30.589,0.223190981 Z M33.197,0.189190981 L49.01,2.68519098 L49.91,19.376191 L33.197,0.189190981 Z" id="Combined-Shape"></path>
             </g>
         </g>
     </g>

@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="58px" height="58px" viewBox="0 0 58 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 3</title>
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Group 3 Copy</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard-Copy-5" transform="translate(-613.000000, -2176.000000)">
-            <g id="Group-3" transform="translate(613.000000, 2176.000000)">
-                <rect id="Rectangle-16-Copy" stroke="#000000" stroke-width="3" x="1.5" y="1.5" width="54.2" height="54.2"></rect>
-                <text id="Ai" font-family="BrandonGrotesque-Bold, Brandon Grotesque" font-size="39.6" font-weight="bold" letter-spacing="-1.1" fill="#000000">
-                    <tspan x="11" y="42">Ai</tspan>
-                </text>
+        <g id="Artboard-Copy-5" transform="translate(-242.000000, -2176.000000)" fill="#000000">
+            <g id="Group-3-Copy" transform="translate(242.000000, 2176.000000)">
+                <path d="M57.2,3.62376795e-13 L57.2,57.2 L3.62376795e-13,57.2 L3.62376795e-13,3.62376795e-13 L57.2,3.62376795e-13 Z M24.3848,13.884 L23.9888,13.884 C23.6324,13.884 23.4344,14.082 23.3156,14.3196 L11,40.9704 C10.7624,41.4852 11.0792,42 11.6732,42 L15.1184,42 C15.6992,42 16.047075,41.66725 16.2230292,41.3067708 L18.2072,36.9312 L30.0476,36.9312 L31.988,41.208 C32.2652,41.7624 32.5424,42 33.1364,42 L36.5816,42 C37.1756,42 37.4924,41.4852 37.2548,40.9704 L25.058,14.3196 C24.9392,14.082 24.7808,13.884 24.3848,13.884 Z M42.372,26.16 L39.0852,26.16 C38.6892,26.16 38.3328,26.4768 38.3328,26.9124 L38.3328,26.9124 L38.3328,41.2476 C38.3328,41.6436 38.6892,42 39.0852,42 L39.0852,42 L42.372,42 C42.768,42 43.1244,41.6436 43.1244,41.2476 L43.1244,41.2476 L43.1244,26.9124 C43.1244,26.4768 42.768,26.16 42.372,26.16 L42.372,26.16 Z M24.1472,23.8236 L28.1072,32.5356 L20.1476,32.5356 L24.0284,23.8236 L24.1472,23.8236 Z M40.6692,15.072 C39.1644,15.072 37.9764,16.2996 37.9764,17.8044 C37.9764,19.3092 39.1644,20.5368 40.6692,20.5368 C42.2136,20.5368 43.4412,19.3092 43.4412,17.8044 C43.4412,16.2996 42.2136,15.072 40.6692,15.072 Z" id="Combined-Shape"></path>
             </g>
         </g>
     </g>
