@@ -26,18 +26,18 @@
 	margin-right: 20px;
 }
 
-.filter_container li h3 {
+.filter_container li h2 {
 	cursor: pointer;
 	margin-bottom: 20px;
 	line-height: 1;
-	/*letter-spacing: 2px;*/
 	display: inline-block;
 	text-decoration: none;
 	transition: all 0.2s ease-in;
+	border-bottom: #D4CDC7 4px solid;
 }
 
 
-.filter_container li:hover h3{
+.filter_container li:hover h2{
 	color: #C74F46;
 }
 
@@ -127,6 +127,14 @@ a.project_item {
 }
 
 @media (min-width: 769px) and (max-width: 1200px) {
+	h1 {
+		font-size: 5vw;
+	}
+
+
+	h2 {
+		font-size: 2vw;
+	}
 	.content {
 		display: flex;
 		flex-direction: column;
@@ -167,7 +175,7 @@ a.project_item {
 	}
 
 
-	h3 {
+	h2 {
 		font-size: 3vw;
 	}
 	.content {

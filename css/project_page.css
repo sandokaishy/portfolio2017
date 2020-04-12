@@ -42,15 +42,14 @@ video.project_img {
 
 section {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	margin-top: 32px;
 	width: 80vw;
 	justify-content: center;
-	align-items: flex-start;
+	align-items: center;
 }
 
 section h2 {
-	font-family: 'Montserrat';
 	margin-top: 24px;
 	margin-bottom: 16px;
 }

@@ -1,0 +1,12 @@
+body {
+	animation: page-loading 0.5s ease-in;
+}
+
+@keyframes page-loading {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
