@@ -73,14 +73,14 @@ a.project_item {
 
 .project_item h3 {
 	font-size: 20px;
-	font-weight: 700;
+	font-weight: 400;
 	padding: 12px;
 	color: white;
 	margin: 0;
 	z-index: 2;
 	text-align: center;
 	text-decoration: none;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 }
 
 .project_item.mix {
@@ -106,21 +106,23 @@ a.project_item {
 	right: 0;
 	left: 0;
 	opacity: 0;
-	transition: ease-out 0.5s all;
+	transition: ease-out 0.3s all;
 }
 
 
 
-.project_item:hover .description {
-	background-color: rgba(0, 0, 0, 0.5);
-	opacity: 1;
-}
+
 
 @media screen and (min-width: 1201px) {
 
+	.project_item:hover .description {
+		background-color: rgba(0, 0, 0, 0.75);
+		opacity: 1;
+	}	
+
 	.project_item:hover img {
 		-webkit-filter: grayscale(100%);
-		transform: scale(1.2);
+		transform: scale(1.1);
 	/*	animation: project_img 30s infinite;*/
 	}
 
