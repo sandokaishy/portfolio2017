@@ -13,41 +13,42 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js"></script>	
 </head>
 <body>
-	<div id="project_title" class="project_info">
-		<div class="project_name">
+	<a class="back_button" href="../index.html"><h5> < Back to Project</h5></a>
+	<div class="project_info">
+		<div class="project_member">
 			<h1>Icon Sets</h1>
-			<p>Icons for collage webs and mobile applications.</p>
-			<p>Sep. 2018</p>
-			<p>UI Design</p>
+			<h5>Sep. 2018</h5>
+			<h5>Designer: Sheng Pan</h5>
+			<h5>Workflow Planner: Sheng Pan</h5>
 		</div>
-		<img class="project_cover" src="../img/iconsets/iconsets_header.jpg" alt="icon_header">			
-	</div>
-	<div class="container">
-			<a class="project_img" href="../img/iconsets/iconsets_heroimg.jpg" data-fancybox data-caption="All icons of our service.">
-				<img src="../img/iconsets/iconsets_heroimg.jpg" alt="iconsets_hero">
-			</a>				
+		<img class="project_cover" src="../img/iconsets/iconsets_header.jpg" alt="icon_header">					
+	</div>	
+	<div class="container">			
 		<section>
-			<div class="about description">
-				<h2>About this project</h2>
-				<p>Iconsets is a collection project that integrate all the icons on our websites(partial) and mobile application.<br />
-					Design team hopes to create a icon management flow with Sketch library feature. Every designer will get updated icon when someone added a new icon or revised icons.
-				</p>
-				<p>This project is not only for deisgners' workflow but for engineers'. Frontend engineers manage icons with webfont service like Icomoon,transfering svg to TTF file and entering unique classname to apply icon as fonts on the website or application.</p>	
-				<p>
-					To combine two workflows, we decide to transfer icon to TTF on the design side. As a result, designers will be able to change icons and engineers will get updated immediately.<br />
-					It's a new workflow how we face the agile iterations.
-				</p>
-			</div>		
+			<p>Iconsets is a collection project that integrate all the icons on our websites(partial) and mobile application.<br />
+				Design team hopes to create a icon management flow with Sketch library feature. Every designer will get updated icon when someone added a new icon or revised icons.
+			</p>
+			<a class="project_img" href="../img/iconsets/iconsets_header.jpg" data-fancybox data-caption="Here is what the final library looks like. It will be growing as the time goes.">
+				<img src="../img/iconsets/iconsets_header.jpg" alt="final">
+			</a>						
 		</section>
 		<section>
+			<h4>Why</h4>
+			<h2>Workflow for designers and engineers</h2>
+			<p>This project is not only for deisgners' workflow but for engineers'. Frontend engineers manage icons with webfont service like Icomoon,transfering svg to TTF file and entering unique classname to apply icon as fonts on the website or application.</p>
+			<p>
+				To combine two workflows, we decide to transfer icon to TTF on the design side. As a result, designers will be able to change icons and engineers will get updated immediately.<br />
+				It's a new workflow how we face the agile iterations.
+			</p>							
+		</section>
+		<section>
+			<h4>How</h4>
+			<h2>Gulp.js makes Sketch file into TTF</h2>
+			<p>We use gulp.js to watch every change of sketch file (iconsets/ icon library). There is a gulp script names "symbols for sketch" below:</p>
+			<p><a href="https://github.com/cognitom/symbols-for-sketch">symbols-for-sketch</a></p>					
 			<a class="project_img" href="../img/iconsets/iconsets_gulp.png" data-fancybox data-caption="We use gulp to transfer sketch file(with icons) into ttf file.">
 				<img src="../img/iconsets/iconsets_gulp.png" alt="iconsets_1">
 			</a>							
-			<div class="description">
-				<h2>The workflow</h2>
-				<p>We use gulp.js to watch every change of sketch file (iconsets/ icon library). There is a gulp script names "symbols for sketch" below:</p>
-				<p><a href="https://github.com/cognitom/symbols-for-sketch">symbols-for-sketch</a></p>				
-			</div>
 		</section>
 		<section>
 			<a class="project_img" href="../img/iconsets/iconsets_exp1.png" data-fancybox data-caption="The visual weight of rectangles and circles are different.">
@@ -79,9 +80,7 @@
 			</div>
 		</section>
 		<section>
-			<a class="project_img" href="../img/iconsets/iconsets_header.jpg" data-fancybox data-caption="Here is what the final library looks like. It will be growing as the time goes.">
-				<img src="../img/iconsets/iconsets_header.jpg" alt="final">
-			</a>						
+					
 			<div class="description">
 				<h2>Iconsets</h2>
 				<p>Here is what the final library looks like from now on. It will be growing as the time goes.</p>

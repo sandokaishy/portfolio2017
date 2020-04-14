@@ -17,7 +17,7 @@
 }
 
 .filter_container h1 {
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 }
 
 .filter_container li {
@@ -26,13 +26,16 @@
 	margin-right: 20px;
 }
 
-.filter_container li h2 {
+.filter_container li h3 {
 	cursor: pointer;
-	margin-bottom: 20px;
+	font-weight: 700;
+	margin-bottom: 1vw;
 	line-height: 1;
 	display: inline-block;
 	text-decoration: none;
 	transition: all 0.2s ease-in;
+	text-transform: uppercase;
+	letter-spacing: 1px;	
 	border-bottom: #D4CDC7 4px solid;
 }
 
@@ -130,12 +133,16 @@ a.project_item {
 
 @media (min-width: 769px) and (max-width: 1200px) {
 	h1 {
-		font-size: 5vw;
+		font-size: 5.5vw;
 	}
 
-
 	h2 {
+		font-size: 2.25vw;
+	}
+
+	h3 {
 		font-size: 2vw;
+		margin-bottom: 1.5vw;
 	}
 	.content {
 		display: flex;
@@ -176,8 +183,11 @@ a.project_item {
 		font-size: 7vw;
 	}
 
-
 	h2 {
+		font-size: 4vw;
+	}
+
+	h3 {
 		font-size: 3vw;
 	}
 	.content {

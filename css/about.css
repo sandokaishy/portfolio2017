@@ -2,6 +2,13 @@ ul {
 	padding-left: 0;
 	margin-left: 0;
 }
+h5 {
+	font-weight: 700;
+}
+h4 {
+	font-weight: 400;
+	margin-bottom: 0.75vw;
+}
 
 h2 {
 	margin-top: 0;
@@ -9,12 +16,9 @@ h2 {
 }
 
 section {
-	margin-bottom: 80px;
+	margin-bottom: 7vw;
 }
 
-section:last-child {
-	margin-bottom: 40px;
-}
 
 .profile_img {
 	filter: grayscale(100%);
@@ -60,16 +64,19 @@ section:last-child {
 	text-decoration: none;
 }
 
-.left a h2 {
+.left h3 {
+	font-weight: 700;
 	transition: all 0.2s ease-in;
+	text-transform: uppercase;
+	letter-spacing: 1px;
 }
 
-.left a:hover h2{
+.left a:hover h3{
 	color: #C74F46;
 }
 
 .left h1 {
-	text-transform: uppercase;
+	
 }
 
 .left ul {
@@ -93,28 +100,21 @@ section:last-child {
 .work_item {
 	display: flex;
 	justify-content: flex-start;
-	margin-bottom: 64px;
+	margin-bottom: 3vw;
 }
 
 
-.position_title {
-	font-weight: 500;
-	margin-top: 8px;
-	margin-bottom: 8px;
-	color: #666;
-}
-
-.position_title span {
+.date {
 	font-weight: 400;
-	font-size: 14px;
-	margin-left: 12px;
+	letter-spacing: 1px;
+	margin-bottom: 1vw;
 	color: #666;
 }
 
 
 .work_item li {
 	font-size: 1.15rem;
-	list-style-type: square;
+	list-style-type: disc;
 	margin-top: 12px;
 	margin-left: 16px;
 }
@@ -161,13 +161,24 @@ section:last-child {
 }
 
 @media (min-width: 769px) and (max-width: 1200px) {
-	h1 {
-		font-size: 5vw;
+	.container {
+		padding: 5vw 5vw;
+	}
+	.right {
+		width: 60vw;
 	}
 
+	h1 {
+		font-size: 5.5vw;
+	}
 
 	h2 {
+		font-size: 2.25vw;
+	}
+
+	h3 {
 		font-size: 2vw;
+		margin-bottom: 1.5vw;
 	}
 }
 
@@ -193,6 +204,10 @@ section:last-child {
 
 	h2 {
 		font-size: 4vw;
+	}
+
+	h3 {
+		font-size: 3vw;
 	}
 
 
