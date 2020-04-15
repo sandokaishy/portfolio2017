@@ -26,7 +26,7 @@
 	margin-right: 20px;
 }
 
-.filter_container li h3 {
+.filter_container li h4 {
 	cursor: pointer;
 	font-weight: 700;
 	margin-bottom: 1vw;
@@ -74,7 +74,7 @@ a.project_item {
 	text-decoration: none;
 }
 
-.project_item h3 {
+.project_item h4 {
 	font-size: 20px;
 	font-weight: 400;
 	padding: 12px;
@@ -140,7 +140,7 @@ a.project_item {
 		font-size: 2.25vw;
 	}
 
-	h3 {
+	h4 {
 		font-size: 2vw;
 		margin-bottom: 1.5vw;
 	}
@@ -187,7 +187,7 @@ a.project_item {
 		font-size: 4vw;
 	}
 
-	h3 {
+	h4 {
 		font-size: 3vw;
 	}
 	.content {

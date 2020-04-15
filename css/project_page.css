@@ -2,7 +2,7 @@
 	position: fixed;
 	top: 0;
 	left: 0;
-	padding: 1vw;
+	padding: 16px 32px;
 	background-color: #D4CDC7;
 	z-index: 100;
 	text-decoration: none;
@@ -39,13 +39,9 @@
 }
 
 .project_img, iframe {
-	width: 64vw;
+	width: 100%;
 }
 
-
-.project_img, section {
-	margin-bottom: 48px;
-}
 
 .project_img.multi_img {
 	display: flex;
@@ -71,48 +67,43 @@ video.project_img {
 section {
 	display: flex;
 	flex-direction: column;
-	margin-top: 2vw;
-	width: 45vw;
+	
+	width: 50vw;
 	justify-content: center;
 	align-items: center;
+	margin-top: 2vw;
+	margin-bottom: 4vw;
 }
 
 section p {
 	font-size: 20px;
 	margin-top: 0.5vw;
 	margin-bottom: 0.5vw;
+	width: 100%;	
 }
 
 section h4 {
 	text-transform: uppercase;
-	margin-bottom: 0;
+	margin-bottom: 0.5vw;
+	color: #666;
+	letter-spacing: 2px;
 }
 
 section h2 {
 	font-weight: 700;
-	letter-spacing: 1px;
-	/*text-transform: uppercase;*/
+	line-height: 1.25;
 	margin-bottom: 0.5vw;
+	text-align: center;
+	width: 100%;
+	/*text-transform: uppercase;*/
 }
 
 section a {
-	display: inline-block;
-	color: white;
+	display: block;
+	color: black;
 	margin-top: 8px;
-	padding: 6px 10px;
-	border-radius: 2px;
-	text-decoration: none;
 }
 
-
-.description li {
-	/*list-style-type: none;*/
-	margin-bottom: 12px;
-}
-
-.description ul {
-	padding-left: 16px;
-}
 
 .project_info {
 	position: relative;
@@ -164,31 +155,59 @@ section a {
 }
 
 .project_img {
-	margin-top: 1vw;
-	margin-bottom: 1vw;
+	margin-top: 2.5vw;
+}
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+		section {
+			width: 70vw;
+		}	
+
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+	section {
+		width: 90vw;
+	}
+	h1 {
+		font-size: 6vw;
+	}
+	h2 {
+		font-size: 3.5vw;
+	}
+	h4 {
+		font-size: 2vw;
+	}
+	h5 {
+		font-size: 16px;
+	}
+	.project_info {
+		height: 40vh;
+	}	
 }
 
 
-
-
-@media screen and (max-width: 919px) {
-	.container, .project_info {
-		padding: 16px 20px 0 20px;
-		margin-left: 0;
-	}
-	.project_info {
-		height: 350px;
-	}
-
-	.project_member {
-		left: 0;
+@media screen and (max-width: 768px) {
+	section {
+		width: 90vw;
 	}
 
 	h1 {
 		font-size: 40px;
 		line-height: 1.2;
 	}
-
+	h2 {
+		font-size: 28px;
+	}
+	h4 {
+		font-size: 20px;
+	}
+	h5 {
+		font-size: 14px;
+	}	
+	.project_info {
+		height: 30vh;
+	}
 
 	.project_img {
 		margin-top: 1vw;
@@ -196,15 +215,7 @@ section a {
 	}
 
 
-	.project_info img {
-		width: 100vw;
-		height: auto;
-	}
 
-	section {
-		flex-direction: column;
-		margin-bottom: 48px;
-	}
 	section .description, section .about.description {
 		width: auto;
 		background-color: rgba(255,255,255,0.3);
