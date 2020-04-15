@@ -57,6 +57,7 @@
 }
 
 video.pointimize {
+	margin-top: 2.5vw;
 	width: 45%;
 }
 
@@ -129,7 +130,8 @@ section a {
 	z-index: 4;
 	font-weight: 500;
 	margin-bottom: 2vw;
-	text-align: center;
+	/*text-align: center;*/
+	line-height: 1.25;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	color: #fff;
