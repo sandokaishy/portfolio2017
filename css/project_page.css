@@ -39,6 +39,7 @@
 }
 
 .project_img, iframe {
+	margin-top: 2.5vw;
 	width: 100%;
 }
 
