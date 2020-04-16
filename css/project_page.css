@@ -39,7 +39,8 @@
 }
 
 .project_img, iframe {
-	margin-top: 2.5vw;
+	margin-top: 1.5vw;
+	margin-bottom: 1.5vw;
 	width: 100%;
 }
 
@@ -158,7 +159,8 @@ section a {
 }
 
 .project_img {
-	margin-top: 2.5vw;
+	margin-top: 1.5vw;
+	margin-bottom: 2.5vw;
 }
 
 @media (min-width: 1201px) and (max-width: 1400px) {
