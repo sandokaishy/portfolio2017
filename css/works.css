@@ -40,10 +40,6 @@
 }
 
 
-.filter_container li:hover h2{
-	color: #C74F46;
-}
-
 .filter_container ul {
 	padding-left: 0;
 }
@@ -96,27 +92,32 @@ a.project_item {
 	z-index: 3;
 }
 
-.description {
-	background-color: rgba(0, 0, 0, 0);
-	text-transform: uppercase;
-	z-index: 5;
-	display: flex;
-	position: absolute;
-	align-items: center;
-	justify-content: center;
-	top: 0;
-	bottom: 0;
-	right: 0;
-	left: 0;
-	opacity: 0;
-	transition: ease-out 0.3s all;
-}
+
 
 
 
 
 
 @media screen and (min-width: 1201px) {
+	.description {
+		background-color: rgba(0, 0, 0, 0);
+		text-transform: uppercase;
+		z-index: 5;
+		display: flex;
+		position: absolute;
+		align-items: center;
+		justify-content: center;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		opacity: 0;
+		transition: ease-out 0.3s all;
+	}	
+
+	.filter_container li:hover h4{
+		color: #C74F46;
+	}
 
 	.project_item:hover .description {
 		background-color: rgba(0, 0, 0, 0.75);
@@ -144,6 +145,7 @@ a.project_item {
 		font-size: 2vw;
 		margin-bottom: 1.5vw;
 	}
+
 	.content {
 		display: flex;
 		flex-direction: column;
@@ -176,6 +178,26 @@ a.project_item {
 		height: calc(100vw/3);
 		text-decoration: none;
 	}
+	.project_item h4 {
+		color: #333;
+	}
+	.project_item img {
+		-webkit-filter: grayscale(100%);		
+		filter: grayscale(100%);
+	}
+
+	.description {
+		background-color: rgba(0, 0, 0, 0.8);
+		text-transform: uppercase;
+		z-index: 5;
+		display: block;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		opacity: 1;
+		transition: ease-out 0.3s all;
+	}	
 }
 
 @media screen and (max-width: 768px) {
@@ -190,6 +212,33 @@ a.project_item {
 	h4 {
 		font-size: 3vw;
 	}
+
+	.project_item h4 {
+		font-size: 3vw;
+	}
+
+	.project_item img {
+		opacity: 0.8;
+/*		-webkit-filter: grayscale(100%);		
+		filter: grayscale(100%);*/
+	}	
+
+	.description {
+		background-color: rgba(0, 0, 0, 0.7);
+		text-transform: uppercase;
+		z-index: 5;
+		display: block;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: 70%;
+		transform: translate(-50%,-50%);
+		opacity: 1;
+		transition: ease-out 0.3s all;
+		padding: 0.2vw;
+	}	
+
+
 	.content {
 		display: flex;
 		flex-direction: column;
