@@ -146,6 +146,10 @@ a.project_item {
 		margin-bottom: 1.5vw;
 	}
 
+	.filter_container li h4 {
+		
+	}
+
 	.content {
 		display: flex;
 		flex-direction: column;
@@ -179,11 +183,11 @@ a.project_item {
 		text-decoration: none;
 	}
 	.project_item h4 {
-		color: #333;
+		/*color: #333;*/
 	}
 	.project_item img {
-		-webkit-filter: grayscale(100%);		
-		filter: grayscale(100%);
+/*		-webkit-filter: grayscale(100%);		
+		filter: grayscale(100%);*/
 	}
 
 	.description {
